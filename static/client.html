@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎨 WebRTC Collaborative Whiteboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+            text-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        .auth-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .auth-section h2 {
+            color: #666;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .auth-section input {
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 300px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .auth-section button {
+            margin-top: 10px;
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 25px;
+            background: linear-gradient(145deg, #ffffff, #f0f0f0);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .session-input {
+            position: relative;
+        }
+
+        #sessionInput {
+            padding: 15px 20px 15px 50px;
+            border: 2px solid #e1e5e9;
+            border-radius: 50px;
+            font-size: 16px;
+            width: 280px;
+            background: white;
+            transition: all 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #sessionInput:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .session-input::before {
+            content: '\f1b9';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+        }
+
+        .btn {
+            padding: 15px 25px;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.6);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(245, 87, 108, 0.4);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(245, 87, 108, 0.6);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+        }
+
+        .btn-danger:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(255, 107, 107, 0.6);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(78, 205, 196, 0.4);
+        }
+
+        .btn-success:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(78, 205, 196, 0.6);
+        }
+
+        .tool-group {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 12px 20px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .tool-group label {
+            font-weight: 500;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        #colorPicker {
+            width: 45px;
+            height: 45px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease;
+        }
+
+        #colorPicker:hover {
+            transform: scale(1.1);
+        }
+
+        #brushSize {
+            width: 100px;
+            height: 8px;
+            border-radius: 5px;
+            background: #e1e5e9;
+            outline: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        #brushSize::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        canvas#board {
+            border: 4px solid #ffffff;
+            border-radius: 25px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+            display: block;
+            margin: 0 auto 20px;
+            cursor: crosshair;
+            background: #fafafa;
+            transition: all 0.3s ease;
+        }
+
+        canvas#board:hover {
+            transform: scale(1.02);
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+        }
+
+        .status {
+            text-align: center;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 18px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            margin: 0 auto;
+            max-width: 500px;
+            transition: all 0.3s ease;
+        }
+
+        .status.connected {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            box-shadow: 0 8px 25px rgba(78, 205, 196, 0.4);
+        }
+
+        .status.disconnected {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .btn:active {
+            animation: pulse 0.2s ease;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            .header h1 {
+                font-size: 2rem;
+            }
+            .controls {
+                flex-direction: column;
+                gap: 20px;
+            }
+            #sessionInput {
+                width: 100%;
+                max-width: 300px;
+            }
+            canvas#board {
+                width: 100%;
+                max-width: 500px;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-palette"></i> Collaborative Canvas</h1>
+            <p>Real-time drawing with friends using WebRTC</p>
+        </div>
+
+        <div class="auth-section">
+            <h2>🔐 Register</h2>
+            <input type="text" id="regUsername" placeholder="Username" required>
+            <input type="password" id="regPassword" placeholder="Password" required>
+            <button id="registerBtn" class="btn btn-primary">Register</button>
+
+            <h2>🔑 Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button id="loginBtn" class="btn btn-secondary">Login</button>
+        </div>
+
+        <div class="controls">
+            <div class="session-input">
+                <input type="text" id="sessionInput" placeholder="Enter session name...">
+            </div>
+            <button id="createBtn" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Create
+            </button>
+            <button id="connectBtn" class="btn btn-secondary">
+                <i class="fas fa-sign-in-alt"></i> Join
+            </button>
+            <div class="tool-group">
+                <label>
+                    <i class="fas fa-paint-brush"></i>
+                    <input type="color" id="colorPicker" value="#000000">
+                </label>
+                <label>
+                    <i class="fas fa-sliders-h"></i>
+                    Size: <input type="range" id="brushSize" min="1" max="30" value="5">
+                </label>
+                <button id="undoBtn" class="btn btn-danger" title="Undo">
+                    <i class="fas fa-undo"></i> Undo
+                </button>
+                <button id="redoBtn" class="btn btn-success" title="Redo">
+                    <i class="fas fa-redo"></i> Redo
+                </button>
+            </div>
+            <button id="clearBtn" class="btn btn-danger" title="Clear Canvas">
+                <i class="fas fa-eraser"></i> Clear
+            </button>
+            <button id="saveBtn" class="btn btn-success" title="Save Session">
+                <i class="fas fa-download"></i> Save
+            </button>
+        </div>
+
+        <canvas id="board" width="1000" height="600"></canvas>
+        <div id="status" class="status">Ready to create or join a session</div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById("board");
+        const ctx = canvas.getContext("2d");
+        const statusText = document.getElementById("status");
+        let drawing = false;
+        let last = null;
+        let ws = null;
+        let sessionName = "";
+        let token = "";
+        let strokes = [];
+        let undoStack = [];
+        let redoStack = [];
+
+        const colorPicker = document.getElementById("colorPicker");
+        const brushSize = document.getElementById("brushSize");
+
+        function drawLine(x0, y0, x1, y1, color, size, emit = true) {
+            ctx.lineJoin = "round";
+            ctx.lineCap = "round";
+            ctx.strokeStyle = color;
+            ctx.lineWidth = size;
+            ctx.beginPath();
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x1, y1);
+            ctx.stroke();
+            if (emit && ws && ws.readyState === WebSocket.OPEN) {
+                ws.send(JSON.stringify({type: "draw", stroke: {x0, y0, x1, y1, color, size}}));
+            }
+        }
+
+        function saveState() {
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            undoStack.push(imageData);
+            redoStack = [];
+        }
+
+        function undo() {
+            if (undoStack.length > 0) {
+                redoStack.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+                ctx.putImageData(undoStack.pop(), 0, 0);
+            }
+        }
+
+        function redo() {
+            if (redoStack.length > 0) {
+                undoStack.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+                ctx.putImageData(redoStack.pop(), 0, 0);
+            }
+        }
+
+        function getMousePos(e) {
+            const rect = canvas.getBoundingClientRect();
+            return {
+                x: e.clientX - rect.left,
+                y: e.clientY - rect.top
+            };
+        }
+
+        canvas.addEventListener("mousedown", (e) => {
+            drawing = true;
+            saveState();
+            const pos = getMousePos(e);
+            last = pos;
+        });
+
+        canvas.addEventListener("mouseup", () => {
+            drawing = false;
+            last = null;
+        });
+
+        canvas.addEventListener("mousemove", (e) => {
+            if (!drawing) return;
+            const pos = getMousePos(e);
+            drawLine(last.x, last.y, pos.x, pos.y, colorPicker.value, parseInt(brushSize.value));
+            last = pos;
+        });
+
+        canvas.addEventListener("touchstart", (e) => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const mouseEvent = new MouseEvent("mousedown", {
+                clientX: touch.clientX,
+                clientY: touch.clientY
+            });
+            canvas.dispatchEvent(mouseEvent);
+        });
+
+        canvas.addEventListener("touchend", (e) => {
+            e.preventDefault();
+            const mouseEvent = new MouseEvent("mouseup", {});
+            canvas.dispatchEvent(mouseEvent);
+        });
+
+        canvas.addEventListener("touchmove", (e) => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const mouseEvent = new MouseEvent("mousemove", {
+                clientX: touch.clientX,
+                clientY: touch.clientY
+            });
+            canvas.dispatchEvent(mouseEvent);
+        });
+
+        document.getElementById("clearBtn").onclick = () => {
+            saveState();
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.send(JSON.stringify({type: "clear"}));
+            }
+        };
+
+        document.getElementById("undoBtn").onclick = undo;
+        document.getElementById("redoBtn").onclick = redo;
+
+        document.getElementById("saveBtn").onclick = async () => {
+            if (!sessionName) return alert("Please join a session first!");
+            try {
+                await fetch("/sessions/save", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": "Bearer " + token
+                    },
+                    body: JSON.stringify({session_name: sessionName, canvas_data: strokes})
+                });
+                alert("🎨 Canvas saved successfully!");
+            } catch (error) {
+                alert("Save failed. Please try again.");
+            }
+        };
+
+        document.getElementById("createBtn").onclick = async () => {
+            const name = document.getElementById("sessionInput").value.trim();
+            if (!name) return alert("Please enter a session name!");
+            try {
+                const res = await fetch("/sessions/create", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": "Bearer " + token
+                    },
+                    body: JSON.stringify({session_name: name})
+                });
+                const data = await res.json();
+                sessionName = name;
+                statusText.textContent = `Session "${name}" created! Share this name to collaborate.`;
+                statusText.className = "status connected";
+                alert(`🎨 Session "${name}" created successfully! Share this session name with friends.`);
+            } catch (error) {
+                alert("Failed to create session. Please try again.");
+            }
+        };
+
+        document.getElementById("connectBtn").onclick = async () => {
+            const name = document.getElementById("sessionInput").value.trim();
+            if (!name) return alert("Please enter a session name!");
+            sessionName = name;
+            statusText.textContent = `Connecting to ${name}...`;
+            statusText.className = "status";
+            if (!token) {
+                alert("Please login first.");
+                return;
+            }
+            ws = new WebSocket(`ws://${window.location.host}/ws/${sessionName}`);
+            ws.onopen = () => {
+                statusText.textContent = `Connected to "${sessionName}" 🎉`;
+                statusText.className = "status connected";
+                alert(`🎉 Successfully joined session "${sessionName}"!`);
+            };
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                if (data.type === "load" && data.canvas_state) {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    data.canvas_state.forEach(s => {
+                        drawLine(s.x0, s.y0, s.x1, s.y1, s.color, s.size, false);
+                    });
+                } else if (data.type === "draw" && data.stroke) {
+                    const s = data.stroke;
+                    drawLine(s.x0, s.y0, s.x1, s.y1, s.color, s.size, false);
+                } else if (data.type === "clear") {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                }
+            };
+            ws.onclose = () => {
+                statusText.textContent = "Disconnected 😔";
+                statusText.className = "status disconnected";
+            };
+            ws.onerror = () => {
+                statusText.textContent = "Connection failed ❌";
+                statusText.className = "status disconnected";
+            };
+        };
+
+        document.getElementById("registerBtn").onclick = async () => {
+            const username = document.getElementById("regUsername").value.trim();
+            const password = document.getElementById("regPassword").value.trim();
+            if (!username || !password) return alert("Please fill in both fields.");
+            try {
+                const res = await fetch("/auth/register", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({username, password})
+                });
+                const data = await res.json();
+                if (data.status === "success") {
+                    alert("Registration successful!");
+                } else {
+                    alert("Registration failed: " + data.detail);
+                }
+            } catch (error) {
+                alert("Registration error: " + error.message);
+            }
+        };
+
+        document.getElementById("loginBtn").onclick = async () => {
+            const username = document.getElementById("loginUsername").value.trim();
+            const password = document.getElementById("loginPassword").value.trim();
+            if (!username || !password) return alert("Please fill in both fields.");
+            try {
+                const res = await fetch("/auth/login", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({username, password})
+                });
+                const data = await res.json();
+                if (data.status === "success") {
+                    token = data.access_token;
+                    alert("Login successful!");
+                } else {
+                    alert("Login failed: " + data.detail);
+                }
+            } catch (error) {
+                alert("Login error: " + error.message);
+            }
+        };
+
+        function resizeCanvas() {
+            const container = canvas.parentElement;
+            const maxWidth = 1000;
+            const maxHeight = 600;
+            if (window.innerWidth < 768) {
+                canvas.width = Math.min(window.innerWidth - 40, maxWidth);
+                canvas.height = (canvas.width / maxWidth) * maxHeight;
+            } else {
+                canvas.width = maxWidth;
+                canvas.height = maxHeight;
+            }
+            canvas.style.width = canvas.width + 'px';
+            canvas.style.height = canvas.height + 'px';
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+    </script>
+</body>
+</html>

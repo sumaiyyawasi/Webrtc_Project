@@ -1,0 +1,2744 @@
+Folder PATH listing
+Volume serial number is B051-4455
+C:.
+|   .env
+|   .gitignore
+|   requirements.txt
+|   server.py
+|   structure.txt
+|   
++---mongodb_data
+|   |   collection-39dc389e-3ef3-49d3-9f18-0809c420c780.wt
+|   |   collection-51ec8667-d9c5-4823-bce6-e953b0c50c2d.wt
+|   |   collection-6c487698-a935-45bc-9a33-f3844bd66ba3.wt
+|   |   collection-894e6794-f32e-4358-8d52-a5704b50a3bb.wt
+|   |   collection-b25788a9-a3e7-44fe-b6bd-2870ce89d4a8.wt
+|   |   index-0567e5a8-ccc5-4ea5-a4f1-483add0a5aec.wt
+|   |   index-6232bb9e-bd1f-4c48-b6a5-7da7bbe99493.wt
+|   |   index-62647652-ca18-4e4c-9260-04d4cc2cf100.wt
+|   |   index-6577ce4e-90d0-46aa-84ec-567e2105dd8a.wt
+|   |   index-75bef5b7-61dc-4d7a-99b1-6f828d6441ed.wt
+|   |   index-f86dc78b-e76a-4abb-9181-1b0bd6b12321.wt
+|   |   mongod.lock
+|   |   sizeStorer.wt
+|   |   storage.bson
+|   |   WiredTiger
+|   |   WiredTiger.lock
+|   |   WiredTiger.turtle
+|   |   WiredTiger.wt
+|   |   WiredTigerHS.wt
+|   |   _mdb_catalog.wt
+|   |   
+|   +---diagnostic.data
+|   |       metrics.2025-11-25T15-11-49Z-00000
+|   |       metrics.2025-11-25T17-59-22Z-00000
+|   |       metrics.2025-11-25T18-03-23Z-00000
+|   |       metrics.2025-11-25T18-04-39Z-00000
+|   |       metrics.2025-11-25T19-15-30Z-00000
+|   |       
+|   +---journal
+|   |       WiredTigerLog.0000000005
+|   |       WiredTigerPreplog.0000000001
+|   |       
+|   \---_tmp
+|       \---spilldb
+|               WiredTiger
+|               WiredTiger.lock
+|               WiredTiger.turtle
+|               WiredTiger.wt
+|               WiredTigerHS.wt
+|               
++---static
+|       client.html
+|       
++---venv
+|   |   pyvenv.cfg
+|   |   
+|   +---Lib
+|   |   \---site-packages
+|   |       |   distutils-precedence.pth
+|   |       |   typing_extensions.py
+|   |       |   
+|   |       +---annotated_doc
+|   |       |   |   main.py
+|   |       |   |   py.typed
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           main.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---annotated_doc-0.0.4.dist-info
+|   |       |   |   entry_points.txt
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---annotated_types
+|   |       |   |   py.typed
+|   |       |   |   test_cases.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           test_cases.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---annotated_types-0.7.0.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---anyio
+|   |       |   |   from_thread.py
+|   |       |   |   lowlevel.py
+|   |       |   |   py.typed
+|   |       |   |   pytest_plugin.py
+|   |       |   |   to_interpreter.py
+|   |       |   |   to_process.py
+|   |       |   |   to_thread.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   +---abc
+|   |       |   |   |   _eventloop.py
+|   |       |   |   |   _resources.py
+|   |       |   |   |   _sockets.py
+|   |       |   |   |   _streams.py
+|   |       |   |   |   _subprocesses.py
+|   |       |   |   |   _tasks.py
+|   |       |   |   |   _testing.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           _eventloop.cpython-39.pyc
+|   |       |   |           _resources.cpython-39.pyc
+|   |       |   |           _sockets.cpython-39.pyc
+|   |       |   |           _streams.cpython-39.pyc
+|   |       |   |           _subprocesses.cpython-39.pyc
+|   |       |   |           _tasks.cpython-39.pyc
+|   |       |   |           _testing.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---streams
+|   |       |   |   |   buffered.py
+|   |       |   |   |   file.py
+|   |       |   |   |   memory.py
+|   |       |   |   |   stapled.py
+|   |       |   |   |   text.py
+|   |       |   |   |   tls.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           buffered.cpython-39.pyc
+|   |       |   |           file.cpython-39.pyc
+|   |       |   |           memory.cpython-39.pyc
+|   |       |   |           stapled.cpython-39.pyc
+|   |       |   |           text.cpython-39.pyc
+|   |       |   |           tls.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---_backends
+|   |       |   |   |   _asyncio.py
+|   |       |   |   |   _trio.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           _asyncio.cpython-39.pyc
+|   |       |   |           _trio.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---_core
+|   |       |   |   |   _asyncio_selector_thread.py
+|   |       |   |   |   _contextmanagers.py
+|   |       |   |   |   _eventloop.py
+|   |       |   |   |   _exceptions.py
+|   |       |   |   |   _fileio.py
+|   |       |   |   |   _resources.py
+|   |       |   |   |   _signals.py
+|   |       |   |   |   _sockets.py
+|   |       |   |   |   _streams.py
+|   |       |   |   |   _subprocesses.py
+|   |       |   |   |   _synchronization.py
+|   |       |   |   |   _tasks.py
+|   |       |   |   |   _tempfile.py
+|   |       |   |   |   _testing.py
+|   |       |   |   |   _typedattr.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           _asyncio_selector_thread.cpython-39.pyc
+|   |       |   |           _contextmanagers.cpython-39.pyc
+|   |       |   |           _eventloop.cpython-39.pyc
+|   |       |   |           _exceptions.cpython-39.pyc
+|   |       |   |           _fileio.cpython-39.pyc
+|   |       |   |           _resources.cpython-39.pyc
+|   |       |   |           _signals.cpython-39.pyc
+|   |       |   |           _sockets.cpython-39.pyc
+|   |       |   |           _streams.cpython-39.pyc
+|   |       |   |           _subprocesses.cpython-39.pyc
+|   |       |   |           _synchronization.cpython-39.pyc
+|   |       |   |           _tasks.cpython-39.pyc
+|   |       |   |           _tempfile.cpython-39.pyc
+|   |       |   |           _testing.cpython-39.pyc
+|   |       |   |           _typedattr.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           from_thread.cpython-39.pyc
+|   |       |           lowlevel.cpython-39.pyc
+|   |       |           pytest_plugin.cpython-39.pyc
+|   |       |           to_interpreter.cpython-39.pyc
+|   |       |           to_process.cpython-39.pyc
+|   |       |           to_thread.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---anyio-4.11.0.dist-info
+|   |       |   |   entry_points.txt
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   top_level.txt
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---click
+|   |       |   |   core.py
+|   |       |   |   decorators.py
+|   |       |   |   exceptions.py
+|   |       |   |   formatting.py
+|   |       |   |   globals.py
+|   |       |   |   parser.py
+|   |       |   |   py.typed
+|   |       |   |   shell_completion.py
+|   |       |   |   termui.py
+|   |       |   |   testing.py
+|   |       |   |   types.py
+|   |       |   |   utils.py
+|   |       |   |   _compat.py
+|   |       |   |   _termui_impl.py
+|   |       |   |   _textwrap.py
+|   |       |   |   _winconsole.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           core.cpython-39.pyc
+|   |       |           decorators.cpython-39.pyc
+|   |       |           exceptions.cpython-39.pyc
+|   |       |           formatting.cpython-39.pyc
+|   |       |           globals.cpython-39.pyc
+|   |       |           parser.cpython-39.pyc
+|   |       |           shell_completion.cpython-39.pyc
+|   |       |           termui.cpython-39.pyc
+|   |       |           testing.cpython-39.pyc
+|   |       |           types.cpython-39.pyc
+|   |       |           utils.cpython-39.pyc
+|   |       |           _compat.cpython-39.pyc
+|   |       |           _termui_impl.cpython-39.pyc
+|   |       |           _textwrap.cpython-39.pyc
+|   |       |           _winconsole.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---click-8.1.8.dist-info
+|   |       |       INSTALLER
+|   |       |       LICENSE.txt
+|   |       |       METADATA
+|   |       |       RECORD
+|   |       |       WHEEL
+|   |       |       
+|   |       +---colorama
+|   |       |   |   ansi.py
+|   |       |   |   ansitowin32.py
+|   |       |   |   initialise.py
+|   |       |   |   win32.py
+|   |       |   |   winterm.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   +---tests
+|   |       |   |   |   ansitowin32_test.py
+|   |       |   |   |   ansi_test.py
+|   |       |   |   |   initialise_test.py
+|   |       |   |   |   isatty_test.py
+|   |       |   |   |   utils.py
+|   |       |   |   |   winterm_test.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           ansitowin32_test.cpython-39.pyc
+|   |       |   |           ansi_test.cpython-39.pyc
+|   |       |   |           initialise_test.cpython-39.pyc
+|   |       |   |           isatty_test.cpython-39.pyc
+|   |       |   |           utils.cpython-39.pyc
+|   |       |   |           winterm_test.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           ansi.cpython-39.pyc
+|   |       |           ansitowin32.cpython-39.pyc
+|   |       |           initialise.cpython-39.pyc
+|   |       |           win32.cpython-39.pyc
+|   |       |           winterm.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---colorama-0.4.6.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE.txt
+|   |       |           
+|   |       +---exceptiongroup
+|   |       |   |   py.typed
+|   |       |   |   _catch.py
+|   |       |   |   _exceptions.py
+|   |       |   |   _formatting.py
+|   |       |   |   _suppress.py
+|   |       |   |   _version.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           _catch.cpython-39.pyc
+|   |       |           _exceptions.cpython-39.pyc
+|   |       |           _formatting.cpython-39.pyc
+|   |       |           _suppress.cpython-39.pyc
+|   |       |           _version.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---exceptiongroup-1.3.0.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---fastapi
+|   |       |   |   applications.py
+|   |       |   |   background.py
+|   |       |   |   cli.py
+|   |       |   |   concurrency.py
+|   |       |   |   datastructures.py
+|   |       |   |   encoders.py
+|   |       |   |   exceptions.py
+|   |       |   |   exception_handlers.py
+|   |       |   |   logger.py
+|   |       |   |   params.py
+|   |       |   |   param_functions.py
+|   |       |   |   py.typed
+|   |       |   |   requests.py
+|   |       |   |   responses.py
+|   |       |   |   routing.py
+|   |       |   |   staticfiles.py
+|   |       |   |   templating.py
+|   |       |   |   temp_pydantic_v1_params.py
+|   |       |   |   testclient.py
+|   |       |   |   types.py
+|   |       |   |   utils.py
+|   |       |   |   websockets.py
+|   |       |   |   __init__.py
+|   |       |   |   __main__.py
+|   |       |   |   
+|   |       |   +---dependencies
+|   |       |   |   |   models.py
+|   |       |   |   |   utils.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           models.cpython-39.pyc
+|   |       |   |           utils.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---middleware
+|   |       |   |   |   asyncexitstack.py
+|   |       |   |   |   cors.py
+|   |       |   |   |   gzip.py
+|   |       |   |   |   httpsredirect.py
+|   |       |   |   |   trustedhost.py
+|   |       |   |   |   wsgi.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           asyncexitstack.cpython-39.pyc
+|   |       |   |           cors.cpython-39.pyc
+|   |       |   |           gzip.cpython-39.pyc
+|   |       |   |           httpsredirect.cpython-39.pyc
+|   |       |   |           trustedhost.cpython-39.pyc
+|   |       |   |           wsgi.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---openapi
+|   |       |   |   |   constants.py
+|   |       |   |   |   docs.py
+|   |       |   |   |   models.py
+|   |       |   |   |   utils.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           constants.cpython-39.pyc
+|   |       |   |           docs.cpython-39.pyc
+|   |       |   |           models.cpython-39.pyc
+|   |       |   |           utils.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---security
+|   |       |   |   |   api_key.py
+|   |       |   |   |   base.py
+|   |       |   |   |   http.py
+|   |       |   |   |   oauth2.py
+|   |       |   |   |   open_id_connect_url.py
+|   |       |   |   |   utils.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           api_key.cpython-39.pyc
+|   |       |   |           base.cpython-39.pyc
+|   |       |   |           http.cpython-39.pyc
+|   |       |   |           oauth2.cpython-39.pyc
+|   |       |   |           open_id_connect_url.cpython-39.pyc
+|   |       |   |           utils.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---_compat
+|   |       |   |   |   main.py
+|   |       |   |   |   may_v1.py
+|   |       |   |   |   model_field.py
+|   |       |   |   |   shared.py
+|   |       |   |   |   v1.py
+|   |       |   |   |   v2.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           main.cpython-39.pyc
+|   |       |   |           may_v1.cpython-39.pyc
+|   |       |   |           model_field.cpython-39.pyc
+|   |       |   |           shared.cpython-39.pyc
+|   |       |   |           v1.cpython-39.pyc
+|   |       |   |           v2.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           applications.cpython-39.pyc
+|   |       |           background.cpython-39.pyc
+|   |       |           cli.cpython-39.pyc
+|   |       |           concurrency.cpython-39.pyc
+|   |       |           datastructures.cpython-39.pyc
+|   |       |           encoders.cpython-39.pyc
+|   |       |           exceptions.cpython-39.pyc
+|   |       |           exception_handlers.cpython-39.pyc
+|   |       |           logger.cpython-39.pyc
+|   |       |           params.cpython-39.pyc
+|   |       |           param_functions.cpython-39.pyc
+|   |       |           requests.cpython-39.pyc
+|   |       |           responses.cpython-39.pyc
+|   |       |           routing.cpython-39.pyc
+|   |       |           staticfiles.cpython-39.pyc
+|   |       |           templating.cpython-39.pyc
+|   |       |           temp_pydantic_v1_params.cpython-39.pyc
+|   |       |           testclient.cpython-39.pyc
+|   |       |           types.cpython-39.pyc
+|   |       |           utils.cpython-39.pyc
+|   |       |           websockets.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           __main__.cpython-39.pyc
+|   |       |           
+|   |       +---fastapi-0.121.3.dist-info
+|   |       |   |   entry_points.txt
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   REQUESTED
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---h11
+|   |       |   |   py.typed
+|   |       |   |   _abnf.py
+|   |       |   |   _connection.py
+|   |       |   |   _events.py
+|   |       |   |   _headers.py
+|   |       |   |   _readers.py
+|   |       |   |   _receivebuffer.py
+|   |       |   |   _state.py
+|   |       |   |   _util.py
+|   |       |   |   _version.py
+|   |       |   |   _writers.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           _abnf.cpython-39.pyc
+|   |       |           _connection.cpython-39.pyc
+|   |       |           _events.cpython-39.pyc
+|   |       |           _headers.cpython-39.pyc
+|   |       |           _readers.cpython-39.pyc
+|   |       |           _receivebuffer.cpython-39.pyc
+|   |       |           _state.cpython-39.pyc
+|   |       |           _util.cpython-39.pyc
+|   |       |           _version.cpython-39.pyc
+|   |       |           _writers.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---h11-0.16.0.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   top_level.txt
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE.txt
+|   |       |           
+|   |       +---idna
+|   |       |   |   codec.py
+|   |       |   |   compat.py
+|   |       |   |   core.py
+|   |       |   |   idnadata.py
+|   |       |   |   intranges.py
+|   |       |   |   package_data.py
+|   |       |   |   py.typed
+|   |       |   |   uts46data.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           codec.cpython-39.pyc
+|   |       |           compat.cpython-39.pyc
+|   |       |           core.cpython-39.pyc
+|   |       |           idnadata.cpython-39.pyc
+|   |       |           intranges.cpython-39.pyc
+|   |       |           package_data.cpython-39.pyc
+|   |       |           uts46data.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---idna-3.11.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE.md
+|   |       |           
+|   |       +---pip
+|   |       |   |   py.typed
+|   |       |   |   __init__.py
+|   |       |   |   __main__.py
+|   |       |   |   
+|   |       |   +---_internal
+|   |       |   |   |   build_env.py
+|   |       |   |   |   cache.py
+|   |       |   |   |   configuration.py
+|   |       |   |   |   exceptions.py
+|   |       |   |   |   main.py
+|   |       |   |   |   pyproject.py
+|   |       |   |   |   self_outdated_check.py
+|   |       |   |   |   wheel_builder.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   +---cli
+|   |       |   |   |   |   autocompletion.py
+|   |       |   |   |   |   base_command.py
+|   |       |   |   |   |   cmdoptions.py
+|   |       |   |   |   |   command_context.py
+|   |       |   |   |   |   main.py
+|   |       |   |   |   |   main_parser.py
+|   |       |   |   |   |   parser.py
+|   |       |   |   |   |   progress_bars.py
+|   |       |   |   |   |   req_command.py
+|   |       |   |   |   |   spinners.py
+|   |       |   |   |   |   status_codes.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           autocompletion.cpython-39.pyc
+|   |       |   |   |           base_command.cpython-39.pyc
+|   |       |   |   |           cmdoptions.cpython-39.pyc
+|   |       |   |   |           command_context.cpython-39.pyc
+|   |       |   |   |           main.cpython-39.pyc
+|   |       |   |   |           main_parser.cpython-39.pyc
+|   |       |   |   |           parser.cpython-39.pyc
+|   |       |   |   |           progress_bars.cpython-39.pyc
+|   |       |   |   |           req_command.cpython-39.pyc
+|   |       |   |   |           spinners.cpython-39.pyc
+|   |       |   |   |           status_codes.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---commands
+|   |       |   |   |   |   cache.py
+|   |       |   |   |   |   check.py
+|   |       |   |   |   |   completion.py
+|   |       |   |   |   |   configuration.py
+|   |       |   |   |   |   debug.py
+|   |       |   |   |   |   download.py
+|   |       |   |   |   |   freeze.py
+|   |       |   |   |   |   hash.py
+|   |       |   |   |   |   help.py
+|   |       |   |   |   |   index.py
+|   |       |   |   |   |   install.py
+|   |       |   |   |   |   list.py
+|   |       |   |   |   |   search.py
+|   |       |   |   |   |   show.py
+|   |       |   |   |   |   uninstall.py
+|   |       |   |   |   |   wheel.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           cache.cpython-39.pyc
+|   |       |   |   |           check.cpython-39.pyc
+|   |       |   |   |           completion.cpython-39.pyc
+|   |       |   |   |           configuration.cpython-39.pyc
+|   |       |   |   |           debug.cpython-39.pyc
+|   |       |   |   |           download.cpython-39.pyc
+|   |       |   |   |           freeze.cpython-39.pyc
+|   |       |   |   |           hash.cpython-39.pyc
+|   |       |   |   |           help.cpython-39.pyc
+|   |       |   |   |           index.cpython-39.pyc
+|   |       |   |   |           install.cpython-39.pyc
+|   |       |   |   |           list.cpython-39.pyc
+|   |       |   |   |           search.cpython-39.pyc
+|   |       |   |   |           show.cpython-39.pyc
+|   |       |   |   |           uninstall.cpython-39.pyc
+|   |       |   |   |           wheel.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---distributions
+|   |       |   |   |   |   base.py
+|   |       |   |   |   |   installed.py
+|   |       |   |   |   |   sdist.py
+|   |       |   |   |   |   wheel.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           base.cpython-39.pyc
+|   |       |   |   |           installed.cpython-39.pyc
+|   |       |   |   |           sdist.cpython-39.pyc
+|   |       |   |   |           wheel.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---index
+|   |       |   |   |   |   collector.py
+|   |       |   |   |   |   package_finder.py
+|   |       |   |   |   |   sources.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           collector.cpython-39.pyc
+|   |       |   |   |           package_finder.cpython-39.pyc
+|   |       |   |   |           sources.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---locations
+|   |       |   |   |   |   base.py
+|   |       |   |   |   |   _distutils.py
+|   |       |   |   |   |   _sysconfig.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           base.cpython-39.pyc
+|   |       |   |   |           _distutils.cpython-39.pyc
+|   |       |   |   |           _sysconfig.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---metadata
+|   |       |   |   |   |   base.py
+|   |       |   |   |   |   pkg_resources.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           base.cpython-39.pyc
+|   |       |   |   |           pkg_resources.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---models
+|   |       |   |   |   |   candidate.py
+|   |       |   |   |   |   direct_url.py
+|   |       |   |   |   |   format_control.py
+|   |       |   |   |   |   index.py
+|   |       |   |   |   |   link.py
+|   |       |   |   |   |   scheme.py
+|   |       |   |   |   |   search_scope.py
+|   |       |   |   |   |   selection_prefs.py
+|   |       |   |   |   |   target_python.py
+|   |       |   |   |   |   wheel.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           candidate.cpython-39.pyc
+|   |       |   |   |           direct_url.cpython-39.pyc
+|   |       |   |   |           format_control.cpython-39.pyc
+|   |       |   |   |           index.cpython-39.pyc
+|   |       |   |   |           link.cpython-39.pyc
+|   |       |   |   |           scheme.cpython-39.pyc
+|   |       |   |   |           search_scope.cpython-39.pyc
+|   |       |   |   |           selection_prefs.cpython-39.pyc
+|   |       |   |   |           target_python.cpython-39.pyc
+|   |       |   |   |           wheel.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---network
+|   |       |   |   |   |   auth.py
+|   |       |   |   |   |   cache.py
+|   |       |   |   |   |   download.py
+|   |       |   |   |   |   lazy_wheel.py
+|   |       |   |   |   |   session.py
+|   |       |   |   |   |   utils.py
+|   |       |   |   |   |   xmlrpc.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           auth.cpython-39.pyc
+|   |       |   |   |           cache.cpython-39.pyc
+|   |       |   |   |           download.cpython-39.pyc
+|   |       |   |   |           lazy_wheel.cpython-39.pyc
+|   |       |   |   |           session.cpython-39.pyc
+|   |       |   |   |           utils.cpython-39.pyc
+|   |       |   |   |           xmlrpc.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---operations
+|   |       |   |   |   |   check.py
+|   |       |   |   |   |   freeze.py
+|   |       |   |   |   |   prepare.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---build
+|   |       |   |   |   |   |   metadata.py
+|   |       |   |   |   |   |   metadata_editable.py
+|   |       |   |   |   |   |   metadata_legacy.py
+|   |       |   |   |   |   |   wheel.py
+|   |       |   |   |   |   |   wheel_editable.py
+|   |       |   |   |   |   |   wheel_legacy.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           metadata.cpython-39.pyc
+|   |       |   |   |   |           metadata_editable.cpython-39.pyc
+|   |       |   |   |   |           metadata_legacy.cpython-39.pyc
+|   |       |   |   |   |           wheel.cpython-39.pyc
+|   |       |   |   |   |           wheel_editable.cpython-39.pyc
+|   |       |   |   |   |           wheel_legacy.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---install
+|   |       |   |   |   |   |   editable_legacy.py
+|   |       |   |   |   |   |   legacy.py
+|   |       |   |   |   |   |   wheel.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           editable_legacy.cpython-39.pyc
+|   |       |   |   |   |           legacy.cpython-39.pyc
+|   |       |   |   |   |           wheel.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           check.cpython-39.pyc
+|   |       |   |   |           freeze.cpython-39.pyc
+|   |       |   |   |           prepare.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---req
+|   |       |   |   |   |   constructors.py
+|   |       |   |   |   |   req_file.py
+|   |       |   |   |   |   req_install.py
+|   |       |   |   |   |   req_set.py
+|   |       |   |   |   |   req_tracker.py
+|   |       |   |   |   |   req_uninstall.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           constructors.cpython-39.pyc
+|   |       |   |   |           req_file.cpython-39.pyc
+|   |       |   |   |           req_install.cpython-39.pyc
+|   |       |   |   |           req_set.cpython-39.pyc
+|   |       |   |   |           req_tracker.cpython-39.pyc
+|   |       |   |   |           req_uninstall.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---resolution
+|   |       |   |   |   |   base.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---legacy
+|   |       |   |   |   |   |   resolver.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           resolver.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---resolvelib
+|   |       |   |   |   |   |   base.py
+|   |       |   |   |   |   |   candidates.py
+|   |       |   |   |   |   |   factory.py
+|   |       |   |   |   |   |   found_candidates.py
+|   |       |   |   |   |   |   provider.py
+|   |       |   |   |   |   |   reporter.py
+|   |       |   |   |   |   |   requirements.py
+|   |       |   |   |   |   |   resolver.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           base.cpython-39.pyc
+|   |       |   |   |   |           candidates.cpython-39.pyc
+|   |       |   |   |   |           factory.cpython-39.pyc
+|   |       |   |   |   |           found_candidates.cpython-39.pyc
+|   |       |   |   |   |           provider.cpython-39.pyc
+|   |       |   |   |   |           reporter.cpython-39.pyc
+|   |       |   |   |   |           requirements.cpython-39.pyc
+|   |       |   |   |   |           resolver.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           base.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---utils
+|   |       |   |   |   |   appdirs.py
+|   |       |   |   |   |   compat.py
+|   |       |   |   |   |   compatibility_tags.py
+|   |       |   |   |   |   datetime.py
+|   |       |   |   |   |   deprecation.py
+|   |       |   |   |   |   direct_url_helpers.py
+|   |       |   |   |   |   distutils_args.py
+|   |       |   |   |   |   egg_link.py
+|   |       |   |   |   |   encoding.py
+|   |       |   |   |   |   entrypoints.py
+|   |       |   |   |   |   filesystem.py
+|   |       |   |   |   |   filetypes.py
+|   |       |   |   |   |   glibc.py
+|   |       |   |   |   |   hashes.py
+|   |       |   |   |   |   inject_securetransport.py
+|   |       |   |   |   |   logging.py
+|   |       |   |   |   |   misc.py
+|   |       |   |   |   |   models.py
+|   |       |   |   |   |   packaging.py
+|   |       |   |   |   |   setuptools_build.py
+|   |       |   |   |   |   subprocess.py
+|   |       |   |   |   |   temp_dir.py
+|   |       |   |   |   |   unpacking.py
+|   |       |   |   |   |   urls.py
+|   |       |   |   |   |   virtualenv.py
+|   |       |   |   |   |   wheel.py
+|   |       |   |   |   |   _log.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           appdirs.cpython-39.pyc
+|   |       |   |   |           compat.cpython-39.pyc
+|   |       |   |   |           compatibility_tags.cpython-39.pyc
+|   |       |   |   |           datetime.cpython-39.pyc
+|   |       |   |   |           deprecation.cpython-39.pyc
+|   |       |   |   |           direct_url_helpers.cpython-39.pyc
+|   |       |   |   |           distutils_args.cpython-39.pyc
+|   |       |   |   |           egg_link.cpython-39.pyc
+|   |       |   |   |           encoding.cpython-39.pyc
+|   |       |   |   |           entrypoints.cpython-39.pyc
+|   |       |   |   |           filesystem.cpython-39.pyc
+|   |       |   |   |           filetypes.cpython-39.pyc
+|   |       |   |   |           glibc.cpython-39.pyc
+|   |       |   |   |           hashes.cpython-39.pyc
+|   |       |   |   |           inject_securetransport.cpython-39.pyc
+|   |       |   |   |           logging.cpython-39.pyc
+|   |       |   |   |           misc.cpython-39.pyc
+|   |       |   |   |           models.cpython-39.pyc
+|   |       |   |   |           packaging.cpython-39.pyc
+|   |       |   |   |           setuptools_build.cpython-39.pyc
+|   |       |   |   |           subprocess.cpython-39.pyc
+|   |       |   |   |           temp_dir.cpython-39.pyc
+|   |       |   |   |           unpacking.cpython-39.pyc
+|   |       |   |   |           urls.cpython-39.pyc
+|   |       |   |   |           virtualenv.cpython-39.pyc
+|   |       |   |   |           wheel.cpython-39.pyc
+|   |       |   |   |           _log.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---vcs
+|   |       |   |   |   |   bazaar.py
+|   |       |   |   |   |   git.py
+|   |       |   |   |   |   mercurial.py
+|   |       |   |   |   |   subversion.py
+|   |       |   |   |   |   versioncontrol.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           bazaar.cpython-39.pyc
+|   |       |   |   |           git.cpython-39.pyc
+|   |       |   |   |           mercurial.cpython-39.pyc
+|   |       |   |   |           subversion.cpython-39.pyc
+|   |       |   |   |           versioncontrol.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   \---__pycache__
+|   |       |   |           build_env.cpython-39.pyc
+|   |       |   |           cache.cpython-39.pyc
+|   |       |   |           configuration.cpython-39.pyc
+|   |       |   |           exceptions.cpython-39.pyc
+|   |       |   |           main.cpython-39.pyc
+|   |       |   |           pyproject.cpython-39.pyc
+|   |       |   |           self_outdated_check.cpython-39.pyc
+|   |       |   |           wheel_builder.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---_vendor
+|   |       |   |   |   distro.py
+|   |       |   |   |   six.py
+|   |       |   |   |   typing_extensions.py
+|   |       |   |   |   vendor.txt
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   +---cachecontrol
+|   |       |   |   |   |   adapter.py
+|   |       |   |   |   |   cache.py
+|   |       |   |   |   |   compat.py
+|   |       |   |   |   |   controller.py
+|   |       |   |   |   |   filewrapper.py
+|   |       |   |   |   |   heuristics.py
+|   |       |   |   |   |   serialize.py
+|   |       |   |   |   |   wrapper.py
+|   |       |   |   |   |   _cmd.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---caches
+|   |       |   |   |   |   |   file_cache.py
+|   |       |   |   |   |   |   redis_cache.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           file_cache.cpython-39.pyc
+|   |       |   |   |   |           redis_cache.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           adapter.cpython-39.pyc
+|   |       |   |   |           cache.cpython-39.pyc
+|   |       |   |   |           compat.cpython-39.pyc
+|   |       |   |   |           controller.cpython-39.pyc
+|   |       |   |   |           filewrapper.cpython-39.pyc
+|   |       |   |   |           heuristics.cpython-39.pyc
+|   |       |   |   |           serialize.cpython-39.pyc
+|   |       |   |   |           wrapper.cpython-39.pyc
+|   |       |   |   |           _cmd.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---certifi
+|   |       |   |   |   |   cacert.pem
+|   |       |   |   |   |   core.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   __main__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           core.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           __main__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---chardet
+|   |       |   |   |   |   big5freq.py
+|   |       |   |   |   |   big5prober.py
+|   |       |   |   |   |   chardistribution.py
+|   |       |   |   |   |   charsetgroupprober.py
+|   |       |   |   |   |   charsetprober.py
+|   |       |   |   |   |   codingstatemachine.py
+|   |       |   |   |   |   compat.py
+|   |       |   |   |   |   cp949prober.py
+|   |       |   |   |   |   enums.py
+|   |       |   |   |   |   escprober.py
+|   |       |   |   |   |   escsm.py
+|   |       |   |   |   |   eucjpprober.py
+|   |       |   |   |   |   euckrfreq.py
+|   |       |   |   |   |   euckrprober.py
+|   |       |   |   |   |   euctwfreq.py
+|   |       |   |   |   |   euctwprober.py
+|   |       |   |   |   |   gb2312freq.py
+|   |       |   |   |   |   gb2312prober.py
+|   |       |   |   |   |   hebrewprober.py
+|   |       |   |   |   |   jisfreq.py
+|   |       |   |   |   |   jpcntx.py
+|   |       |   |   |   |   langbulgarianmodel.py
+|   |       |   |   |   |   langgreekmodel.py
+|   |       |   |   |   |   langhebrewmodel.py
+|   |       |   |   |   |   langhungarianmodel.py
+|   |       |   |   |   |   langrussianmodel.py
+|   |       |   |   |   |   langthaimodel.py
+|   |       |   |   |   |   langturkishmodel.py
+|   |       |   |   |   |   latin1prober.py
+|   |       |   |   |   |   mbcharsetprober.py
+|   |       |   |   |   |   mbcsgroupprober.py
+|   |       |   |   |   |   mbcssm.py
+|   |       |   |   |   |   sbcharsetprober.py
+|   |       |   |   |   |   sbcsgroupprober.py
+|   |       |   |   |   |   sjisprober.py
+|   |       |   |   |   |   universaldetector.py
+|   |       |   |   |   |   utf8prober.py
+|   |       |   |   |   |   version.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---cli
+|   |       |   |   |   |   |   chardetect.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           chardetect.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---metadata
+|   |       |   |   |   |   |   languages.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           languages.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           big5freq.cpython-39.pyc
+|   |       |   |   |           big5prober.cpython-39.pyc
+|   |       |   |   |           chardistribution.cpython-39.pyc
+|   |       |   |   |           charsetgroupprober.cpython-39.pyc
+|   |       |   |   |           charsetprober.cpython-39.pyc
+|   |       |   |   |           codingstatemachine.cpython-39.pyc
+|   |       |   |   |           compat.cpython-39.pyc
+|   |       |   |   |           cp949prober.cpython-39.pyc
+|   |       |   |   |           enums.cpython-39.pyc
+|   |       |   |   |           escprober.cpython-39.pyc
+|   |       |   |   |           escsm.cpython-39.pyc
+|   |       |   |   |           eucjpprober.cpython-39.pyc
+|   |       |   |   |           euckrfreq.cpython-39.pyc
+|   |       |   |   |           euckrprober.cpython-39.pyc
+|   |       |   |   |           euctwfreq.cpython-39.pyc
+|   |       |   |   |           euctwprober.cpython-39.pyc
+|   |       |   |   |           gb2312freq.cpython-39.pyc
+|   |       |   |   |           gb2312prober.cpython-39.pyc
+|   |       |   |   |           hebrewprober.cpython-39.pyc
+|   |       |   |   |           jisfreq.cpython-39.pyc
+|   |       |   |   |           jpcntx.cpython-39.pyc
+|   |       |   |   |           langbulgarianmodel.cpython-39.pyc
+|   |       |   |   |           langgreekmodel.cpython-39.pyc
+|   |       |   |   |           langhebrewmodel.cpython-39.pyc
+|   |       |   |   |           langhungarianmodel.cpython-39.pyc
+|   |       |   |   |           langrussianmodel.cpython-39.pyc
+|   |       |   |   |           langthaimodel.cpython-39.pyc
+|   |       |   |   |           langturkishmodel.cpython-39.pyc
+|   |       |   |   |           latin1prober.cpython-39.pyc
+|   |       |   |   |           mbcharsetprober.cpython-39.pyc
+|   |       |   |   |           mbcsgroupprober.cpython-39.pyc
+|   |       |   |   |           mbcssm.cpython-39.pyc
+|   |       |   |   |           sbcharsetprober.cpython-39.pyc
+|   |       |   |   |           sbcsgroupprober.cpython-39.pyc
+|   |       |   |   |           sjisprober.cpython-39.pyc
+|   |       |   |   |           universaldetector.cpython-39.pyc
+|   |       |   |   |           utf8prober.cpython-39.pyc
+|   |       |   |   |           version.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---colorama
+|   |       |   |   |   |   ansi.py
+|   |       |   |   |   |   ansitowin32.py
+|   |       |   |   |   |   initialise.py
+|   |       |   |   |   |   win32.py
+|   |       |   |   |   |   winterm.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           ansi.cpython-39.pyc
+|   |       |   |   |           ansitowin32.cpython-39.pyc
+|   |       |   |   |           initialise.cpython-39.pyc
+|   |       |   |   |           win32.cpython-39.pyc
+|   |       |   |   |           winterm.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---distlib
+|   |       |   |   |   |   compat.py
+|   |       |   |   |   |   database.py
+|   |       |   |   |   |   index.py
+|   |       |   |   |   |   locators.py
+|   |       |   |   |   |   manifest.py
+|   |       |   |   |   |   markers.py
+|   |       |   |   |   |   metadata.py
+|   |       |   |   |   |   resources.py
+|   |       |   |   |   |   scripts.py
+|   |       |   |   |   |   t32.exe
+|   |       |   |   |   |   t64-arm.exe
+|   |       |   |   |   |   t64.exe
+|   |       |   |   |   |   util.py
+|   |       |   |   |   |   version.py
+|   |       |   |   |   |   w32.exe
+|   |       |   |   |   |   w64-arm.exe
+|   |       |   |   |   |   w64.exe
+|   |       |   |   |   |   wheel.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---_backport
+|   |       |   |   |   |   |   misc.py
+|   |       |   |   |   |   |   shutil.py
+|   |       |   |   |   |   |   sysconfig.cfg
+|   |       |   |   |   |   |   sysconfig.py
+|   |       |   |   |   |   |   tarfile.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           misc.cpython-39.pyc
+|   |       |   |   |   |           shutil.cpython-39.pyc
+|   |       |   |   |   |           sysconfig.cpython-39.pyc
+|   |       |   |   |   |           tarfile.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           compat.cpython-39.pyc
+|   |       |   |   |           database.cpython-39.pyc
+|   |       |   |   |           index.cpython-39.pyc
+|   |       |   |   |           locators.cpython-39.pyc
+|   |       |   |   |           manifest.cpython-39.pyc
+|   |       |   |   |           markers.cpython-39.pyc
+|   |       |   |   |           metadata.cpython-39.pyc
+|   |       |   |   |           resources.cpython-39.pyc
+|   |       |   |   |           scripts.cpython-39.pyc
+|   |       |   |   |           util.cpython-39.pyc
+|   |       |   |   |           version.cpython-39.pyc
+|   |       |   |   |           wheel.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---html5lib
+|   |       |   |   |   |   constants.py
+|   |       |   |   |   |   html5parser.py
+|   |       |   |   |   |   serializer.py
+|   |       |   |   |   |   _ihatexml.py
+|   |       |   |   |   |   _inputstream.py
+|   |       |   |   |   |   _tokenizer.py
+|   |       |   |   |   |   _utils.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---filters
+|   |       |   |   |   |   |   alphabeticalattributes.py
+|   |       |   |   |   |   |   base.py
+|   |       |   |   |   |   |   inject_meta_charset.py
+|   |       |   |   |   |   |   lint.py
+|   |       |   |   |   |   |   optionaltags.py
+|   |       |   |   |   |   |   sanitizer.py
+|   |       |   |   |   |   |   whitespace.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           alphabeticalattributes.cpython-39.pyc
+|   |       |   |   |   |           base.cpython-39.pyc
+|   |       |   |   |   |           inject_meta_charset.cpython-39.pyc
+|   |       |   |   |   |           lint.cpython-39.pyc
+|   |       |   |   |   |           optionaltags.cpython-39.pyc
+|   |       |   |   |   |           sanitizer.cpython-39.pyc
+|   |       |   |   |   |           whitespace.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---treeadapters
+|   |       |   |   |   |   |   genshi.py
+|   |       |   |   |   |   |   sax.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           genshi.cpython-39.pyc
+|   |       |   |   |   |           sax.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---treebuilders
+|   |       |   |   |   |   |   base.py
+|   |       |   |   |   |   |   dom.py
+|   |       |   |   |   |   |   etree.py
+|   |       |   |   |   |   |   etree_lxml.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           base.cpython-39.pyc
+|   |       |   |   |   |           dom.cpython-39.pyc
+|   |       |   |   |   |           etree.cpython-39.pyc
+|   |       |   |   |   |           etree_lxml.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---treewalkers
+|   |       |   |   |   |   |   base.py
+|   |       |   |   |   |   |   dom.py
+|   |       |   |   |   |   |   etree.py
+|   |       |   |   |   |   |   etree_lxml.py
+|   |       |   |   |   |   |   genshi.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           base.cpython-39.pyc
+|   |       |   |   |   |           dom.cpython-39.pyc
+|   |       |   |   |   |           etree.cpython-39.pyc
+|   |       |   |   |   |           etree_lxml.cpython-39.pyc
+|   |       |   |   |   |           genshi.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---_trie
+|   |       |   |   |   |   |   py.py
+|   |       |   |   |   |   |   _base.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           py.cpython-39.pyc
+|   |       |   |   |   |           _base.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           constants.cpython-39.pyc
+|   |       |   |   |           html5parser.cpython-39.pyc
+|   |       |   |   |           serializer.cpython-39.pyc
+|   |       |   |   |           _ihatexml.cpython-39.pyc
+|   |       |   |   |           _inputstream.cpython-39.pyc
+|   |       |   |   |           _tokenizer.cpython-39.pyc
+|   |       |   |   |           _utils.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---idna
+|   |       |   |   |   |   codec.py
+|   |       |   |   |   |   compat.py
+|   |       |   |   |   |   core.py
+|   |       |   |   |   |   idnadata.py
+|   |       |   |   |   |   intranges.py
+|   |       |   |   |   |   package_data.py
+|   |       |   |   |   |   uts46data.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           codec.cpython-39.pyc
+|   |       |   |   |           compat.cpython-39.pyc
+|   |       |   |   |           core.cpython-39.pyc
+|   |       |   |   |           idnadata.cpython-39.pyc
+|   |       |   |   |           intranges.cpython-39.pyc
+|   |       |   |   |           package_data.cpython-39.pyc
+|   |       |   |   |           uts46data.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---msgpack
+|   |       |   |   |   |   exceptions.py
+|   |       |   |   |   |   ext.py
+|   |       |   |   |   |   fallback.py
+|   |       |   |   |   |   _version.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           exceptions.cpython-39.pyc
+|   |       |   |   |           ext.cpython-39.pyc
+|   |       |   |   |           fallback.cpython-39.pyc
+|   |       |   |   |           _version.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---packaging
+|   |       |   |   |   |   markers.py
+|   |       |   |   |   |   requirements.py
+|   |       |   |   |   |   specifiers.py
+|   |       |   |   |   |   tags.py
+|   |       |   |   |   |   utils.py
+|   |       |   |   |   |   version.py
+|   |       |   |   |   |   _manylinux.py
+|   |       |   |   |   |   _musllinux.py
+|   |       |   |   |   |   _structures.py
+|   |       |   |   |   |   __about__.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           markers.cpython-39.pyc
+|   |       |   |   |           requirements.cpython-39.pyc
+|   |       |   |   |           specifiers.cpython-39.pyc
+|   |       |   |   |           tags.cpython-39.pyc
+|   |       |   |   |           utils.cpython-39.pyc
+|   |       |   |   |           version.cpython-39.pyc
+|   |       |   |   |           _manylinux.cpython-39.pyc
+|   |       |   |   |           _musllinux.cpython-39.pyc
+|   |       |   |   |           _structures.cpython-39.pyc
+|   |       |   |   |           __about__.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---pep517
+|   |       |   |   |   |   build.py
+|   |       |   |   |   |   check.py
+|   |       |   |   |   |   colorlog.py
+|   |       |   |   |   |   compat.py
+|   |       |   |   |   |   dirtools.py
+|   |       |   |   |   |   envbuild.py
+|   |       |   |   |   |   meta.py
+|   |       |   |   |   |   wrappers.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---in_process
+|   |       |   |   |   |   |   _in_process.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           _in_process.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           build.cpython-39.pyc
+|   |       |   |   |           check.cpython-39.pyc
+|   |       |   |   |           colorlog.cpython-39.pyc
+|   |       |   |   |           compat.cpython-39.pyc
+|   |       |   |   |           dirtools.cpython-39.pyc
+|   |       |   |   |           envbuild.cpython-39.pyc
+|   |       |   |   |           meta.cpython-39.pyc
+|   |       |   |   |           wrappers.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---pkg_resources
+|   |       |   |   |   |   py31compat.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           py31compat.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---platformdirs
+|   |       |   |   |   |   android.py
+|   |       |   |   |   |   api.py
+|   |       |   |   |   |   macos.py
+|   |       |   |   |   |   unix.py
+|   |       |   |   |   |   version.py
+|   |       |   |   |   |   windows.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   __main__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           android.cpython-39.pyc
+|   |       |   |   |           api.cpython-39.pyc
+|   |       |   |   |           macos.cpython-39.pyc
+|   |       |   |   |           unix.cpython-39.pyc
+|   |       |   |   |           version.cpython-39.pyc
+|   |       |   |   |           windows.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           __main__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---progress
+|   |       |   |   |   |   bar.py
+|   |       |   |   |   |   colors.py
+|   |       |   |   |   |   counter.py
+|   |       |   |   |   |   spinner.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           bar.cpython-39.pyc
+|   |       |   |   |           colors.cpython-39.pyc
+|   |       |   |   |           counter.cpython-39.pyc
+|   |       |   |   |           spinner.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---pygments
+|   |       |   |   |   |   cmdline.py
+|   |       |   |   |   |   console.py
+|   |       |   |   |   |   filter.py
+|   |       |   |   |   |   formatter.py
+|   |       |   |   |   |   lexer.py
+|   |       |   |   |   |   modeline.py
+|   |       |   |   |   |   plugin.py
+|   |       |   |   |   |   regexopt.py
+|   |       |   |   |   |   scanner.py
+|   |       |   |   |   |   sphinxext.py
+|   |       |   |   |   |   style.py
+|   |       |   |   |   |   token.py
+|   |       |   |   |   |   unistring.py
+|   |       |   |   |   |   util.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   __main__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---filters
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---formatters
+|   |       |   |   |   |   |   bbcode.py
+|   |       |   |   |   |   |   groff.py
+|   |       |   |   |   |   |   html.py
+|   |       |   |   |   |   |   img.py
+|   |       |   |   |   |   |   irc.py
+|   |       |   |   |   |   |   latex.py
+|   |       |   |   |   |   |   other.py
+|   |       |   |   |   |   |   pangomarkup.py
+|   |       |   |   |   |   |   rtf.py
+|   |       |   |   |   |   |   svg.py
+|   |       |   |   |   |   |   terminal.py
+|   |       |   |   |   |   |   terminal256.py
+|   |       |   |   |   |   |   _mapping.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           bbcode.cpython-39.pyc
+|   |       |   |   |   |           groff.cpython-39.pyc
+|   |       |   |   |   |           html.cpython-39.pyc
+|   |       |   |   |   |           img.cpython-39.pyc
+|   |       |   |   |   |           irc.cpython-39.pyc
+|   |       |   |   |   |           latex.cpython-39.pyc
+|   |       |   |   |   |           other.cpython-39.pyc
+|   |       |   |   |   |           pangomarkup.cpython-39.pyc
+|   |       |   |   |   |           rtf.cpython-39.pyc
+|   |       |   |   |   |           svg.cpython-39.pyc
+|   |       |   |   |   |           terminal.cpython-39.pyc
+|   |       |   |   |   |           terminal256.cpython-39.pyc
+|   |       |   |   |   |           _mapping.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---lexers
+|   |       |   |   |   |   |   python.py
+|   |       |   |   |   |   |   _mapping.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           python.cpython-39.pyc
+|   |       |   |   |   |           _mapping.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---styles
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           cmdline.cpython-39.pyc
+|   |       |   |   |           console.cpython-39.pyc
+|   |       |   |   |           filter.cpython-39.pyc
+|   |       |   |   |           formatter.cpython-39.pyc
+|   |       |   |   |           lexer.cpython-39.pyc
+|   |       |   |   |           modeline.cpython-39.pyc
+|   |       |   |   |           plugin.cpython-39.pyc
+|   |       |   |   |           regexopt.cpython-39.pyc
+|   |       |   |   |           scanner.cpython-39.pyc
+|   |       |   |   |           sphinxext.cpython-39.pyc
+|   |       |   |   |           style.cpython-39.pyc
+|   |       |   |   |           token.cpython-39.pyc
+|   |       |   |   |           unistring.cpython-39.pyc
+|   |       |   |   |           util.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           __main__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---pyparsing
+|   |       |   |   |   |   actions.py
+|   |       |   |   |   |   common.py
+|   |       |   |   |   |   core.py
+|   |       |   |   |   |   exceptions.py
+|   |       |   |   |   |   helpers.py
+|   |       |   |   |   |   results.py
+|   |       |   |   |   |   testing.py
+|   |       |   |   |   |   unicode.py
+|   |       |   |   |   |   util.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---diagram
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           actions.cpython-39.pyc
+|   |       |   |   |           common.cpython-39.pyc
+|   |       |   |   |           core.cpython-39.pyc
+|   |       |   |   |           exceptions.cpython-39.pyc
+|   |       |   |   |           helpers.cpython-39.pyc
+|   |       |   |   |           results.cpython-39.pyc
+|   |       |   |   |           testing.cpython-39.pyc
+|   |       |   |   |           unicode.cpython-39.pyc
+|   |       |   |   |           util.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---requests
+|   |       |   |   |   |   adapters.py
+|   |       |   |   |   |   api.py
+|   |       |   |   |   |   auth.py
+|   |       |   |   |   |   certs.py
+|   |       |   |   |   |   compat.py
+|   |       |   |   |   |   cookies.py
+|   |       |   |   |   |   exceptions.py
+|   |       |   |   |   |   help.py
+|   |       |   |   |   |   hooks.py
+|   |       |   |   |   |   models.py
+|   |       |   |   |   |   packages.py
+|   |       |   |   |   |   sessions.py
+|   |       |   |   |   |   status_codes.py
+|   |       |   |   |   |   structures.py
+|   |       |   |   |   |   utils.py
+|   |       |   |   |   |   _internal_utils.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   __version__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           adapters.cpython-39.pyc
+|   |       |   |   |           api.cpython-39.pyc
+|   |       |   |   |           auth.cpython-39.pyc
+|   |       |   |   |           certs.cpython-39.pyc
+|   |       |   |   |           compat.cpython-39.pyc
+|   |       |   |   |           cookies.cpython-39.pyc
+|   |       |   |   |           exceptions.cpython-39.pyc
+|   |       |   |   |           help.cpython-39.pyc
+|   |       |   |   |           hooks.cpython-39.pyc
+|   |       |   |   |           models.cpython-39.pyc
+|   |       |   |   |           packages.cpython-39.pyc
+|   |       |   |   |           sessions.cpython-39.pyc
+|   |       |   |   |           status_codes.cpython-39.pyc
+|   |       |   |   |           structures.cpython-39.pyc
+|   |       |   |   |           utils.cpython-39.pyc
+|   |       |   |   |           _internal_utils.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           __version__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---resolvelib
+|   |       |   |   |   |   providers.py
+|   |       |   |   |   |   reporters.py
+|   |       |   |   |   |   resolvers.py
+|   |       |   |   |   |   structs.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---compat
+|   |       |   |   |   |   |   collections_abc.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           collections_abc.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           providers.cpython-39.pyc
+|   |       |   |   |           reporters.cpython-39.pyc
+|   |       |   |   |           resolvers.cpython-39.pyc
+|   |       |   |   |           structs.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---rich
+|   |       |   |   |   |   abc.py
+|   |       |   |   |   |   align.py
+|   |       |   |   |   |   ansi.py
+|   |       |   |   |   |   bar.py
+|   |       |   |   |   |   box.py
+|   |       |   |   |   |   cells.py
+|   |       |   |   |   |   color.py
+|   |       |   |   |   |   color_triplet.py
+|   |       |   |   |   |   columns.py
+|   |       |   |   |   |   console.py
+|   |       |   |   |   |   constrain.py
+|   |       |   |   |   |   containers.py
+|   |       |   |   |   |   control.py
+|   |       |   |   |   |   default_styles.py
+|   |       |   |   |   |   diagnose.py
+|   |       |   |   |   |   emoji.py
+|   |       |   |   |   |   errors.py
+|   |       |   |   |   |   filesize.py
+|   |       |   |   |   |   file_proxy.py
+|   |       |   |   |   |   highlighter.py
+|   |       |   |   |   |   json.py
+|   |       |   |   |   |   jupyter.py
+|   |       |   |   |   |   layout.py
+|   |       |   |   |   |   live.py
+|   |       |   |   |   |   live_render.py
+|   |       |   |   |   |   logging.py
+|   |       |   |   |   |   markup.py
+|   |       |   |   |   |   measure.py
+|   |       |   |   |   |   padding.py
+|   |       |   |   |   |   pager.py
+|   |       |   |   |   |   palette.py
+|   |       |   |   |   |   panel.py
+|   |       |   |   |   |   pretty.py
+|   |       |   |   |   |   progress.py
+|   |       |   |   |   |   progress_bar.py
+|   |       |   |   |   |   prompt.py
+|   |       |   |   |   |   protocol.py
+|   |       |   |   |   |   region.py
+|   |       |   |   |   |   repr.py
+|   |       |   |   |   |   rule.py
+|   |       |   |   |   |   scope.py
+|   |       |   |   |   |   screen.py
+|   |       |   |   |   |   segment.py
+|   |       |   |   |   |   spinner.py
+|   |       |   |   |   |   status.py
+|   |       |   |   |   |   style.py
+|   |       |   |   |   |   styled.py
+|   |       |   |   |   |   syntax.py
+|   |       |   |   |   |   table.py
+|   |       |   |   |   |   tabulate.py
+|   |       |   |   |   |   terminal_theme.py
+|   |       |   |   |   |   text.py
+|   |       |   |   |   |   theme.py
+|   |       |   |   |   |   themes.py
+|   |       |   |   |   |   traceback.py
+|   |       |   |   |   |   tree.py
+|   |       |   |   |   |   _cell_widths.py
+|   |       |   |   |   |   _emoji_codes.py
+|   |       |   |   |   |   _emoji_replace.py
+|   |       |   |   |   |   _extension.py
+|   |       |   |   |   |   _inspect.py
+|   |       |   |   |   |   _log_render.py
+|   |       |   |   |   |   _loop.py
+|   |       |   |   |   |   _lru_cache.py
+|   |       |   |   |   |   _palettes.py
+|   |       |   |   |   |   _pick.py
+|   |       |   |   |   |   _ratio.py
+|   |       |   |   |   |   _spinners.py
+|   |       |   |   |   |   _stack.py
+|   |       |   |   |   |   _timer.py
+|   |       |   |   |   |   _windows.py
+|   |       |   |   |   |   _wrap.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   __main__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           abc.cpython-39.pyc
+|   |       |   |   |           align.cpython-39.pyc
+|   |       |   |   |           ansi.cpython-39.pyc
+|   |       |   |   |           bar.cpython-39.pyc
+|   |       |   |   |           box.cpython-39.pyc
+|   |       |   |   |           cells.cpython-39.pyc
+|   |       |   |   |           color.cpython-39.pyc
+|   |       |   |   |           color_triplet.cpython-39.pyc
+|   |       |   |   |           columns.cpython-39.pyc
+|   |       |   |   |           console.cpython-39.pyc
+|   |       |   |   |           constrain.cpython-39.pyc
+|   |       |   |   |           containers.cpython-39.pyc
+|   |       |   |   |           control.cpython-39.pyc
+|   |       |   |   |           default_styles.cpython-39.pyc
+|   |       |   |   |           diagnose.cpython-39.pyc
+|   |       |   |   |           emoji.cpython-39.pyc
+|   |       |   |   |           errors.cpython-39.pyc
+|   |       |   |   |           filesize.cpython-39.pyc
+|   |       |   |   |           file_proxy.cpython-39.pyc
+|   |       |   |   |           highlighter.cpython-39.pyc
+|   |       |   |   |           json.cpython-39.pyc
+|   |       |   |   |           jupyter.cpython-39.pyc
+|   |       |   |   |           layout.cpython-39.pyc
+|   |       |   |   |           live.cpython-39.pyc
+|   |       |   |   |           live_render.cpython-39.pyc
+|   |       |   |   |           logging.cpython-39.pyc
+|   |       |   |   |           markup.cpython-39.pyc
+|   |       |   |   |           measure.cpython-39.pyc
+|   |       |   |   |           padding.cpython-39.pyc
+|   |       |   |   |           pager.cpython-39.pyc
+|   |       |   |   |           palette.cpython-39.pyc
+|   |       |   |   |           panel.cpython-39.pyc
+|   |       |   |   |           pretty.cpython-39.pyc
+|   |       |   |   |           progress.cpython-39.pyc
+|   |       |   |   |           progress_bar.cpython-39.pyc
+|   |       |   |   |           prompt.cpython-39.pyc
+|   |       |   |   |           protocol.cpython-39.pyc
+|   |       |   |   |           region.cpython-39.pyc
+|   |       |   |   |           repr.cpython-39.pyc
+|   |       |   |   |           rule.cpython-39.pyc
+|   |       |   |   |           scope.cpython-39.pyc
+|   |       |   |   |           screen.cpython-39.pyc
+|   |       |   |   |           segment.cpython-39.pyc
+|   |       |   |   |           spinner.cpython-39.pyc
+|   |       |   |   |           status.cpython-39.pyc
+|   |       |   |   |           style.cpython-39.pyc
+|   |       |   |   |           styled.cpython-39.pyc
+|   |       |   |   |           syntax.cpython-39.pyc
+|   |       |   |   |           table.cpython-39.pyc
+|   |       |   |   |           tabulate.cpython-39.pyc
+|   |       |   |   |           terminal_theme.cpython-39.pyc
+|   |       |   |   |           text.cpython-39.pyc
+|   |       |   |   |           theme.cpython-39.pyc
+|   |       |   |   |           themes.cpython-39.pyc
+|   |       |   |   |           traceback.cpython-39.pyc
+|   |       |   |   |           tree.cpython-39.pyc
+|   |       |   |   |           _cell_widths.cpython-39.pyc
+|   |       |   |   |           _emoji_codes.cpython-39.pyc
+|   |       |   |   |           _emoji_replace.cpython-39.pyc
+|   |       |   |   |           _extension.cpython-39.pyc
+|   |       |   |   |           _inspect.cpython-39.pyc
+|   |       |   |   |           _log_render.cpython-39.pyc
+|   |       |   |   |           _loop.cpython-39.pyc
+|   |       |   |   |           _lru_cache.cpython-39.pyc
+|   |       |   |   |           _palettes.cpython-39.pyc
+|   |       |   |   |           _pick.cpython-39.pyc
+|   |       |   |   |           _ratio.cpython-39.pyc
+|   |       |   |   |           _spinners.cpython-39.pyc
+|   |       |   |   |           _stack.cpython-39.pyc
+|   |       |   |   |           _timer.cpython-39.pyc
+|   |       |   |   |           _windows.cpython-39.pyc
+|   |       |   |   |           _wrap.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           __main__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---tenacity
+|   |       |   |   |   |   after.py
+|   |       |   |   |   |   before.py
+|   |       |   |   |   |   before_sleep.py
+|   |       |   |   |   |   nap.py
+|   |       |   |   |   |   retry.py
+|   |       |   |   |   |   stop.py
+|   |       |   |   |   |   tornadoweb.py
+|   |       |   |   |   |   wait.py
+|   |       |   |   |   |   _asyncio.py
+|   |       |   |   |   |   _utils.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           after.cpython-39.pyc
+|   |       |   |   |           before.cpython-39.pyc
+|   |       |   |   |           before_sleep.cpython-39.pyc
+|   |       |   |   |           nap.cpython-39.pyc
+|   |       |   |   |           retry.cpython-39.pyc
+|   |       |   |   |           stop.cpython-39.pyc
+|   |       |   |   |           tornadoweb.cpython-39.pyc
+|   |       |   |   |           wait.cpython-39.pyc
+|   |       |   |   |           _asyncio.cpython-39.pyc
+|   |       |   |   |           _utils.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---tomli
+|   |       |   |   |   |   _parser.py
+|   |       |   |   |   |   _re.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           _parser.cpython-39.pyc
+|   |       |   |   |           _re.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---urllib3
+|   |       |   |   |   |   connection.py
+|   |       |   |   |   |   connectionpool.py
+|   |       |   |   |   |   exceptions.py
+|   |       |   |   |   |   fields.py
+|   |       |   |   |   |   filepost.py
+|   |       |   |   |   |   poolmanager.py
+|   |       |   |   |   |   request.py
+|   |       |   |   |   |   response.py
+|   |       |   |   |   |   _collections.py
+|   |       |   |   |   |   _version.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   +---contrib
+|   |       |   |   |   |   |   appengine.py
+|   |       |   |   |   |   |   ntlmpool.py
+|   |       |   |   |   |   |   pyopenssl.py
+|   |       |   |   |   |   |   securetransport.py
+|   |       |   |   |   |   |   socks.py
+|   |       |   |   |   |   |   _appengine_environ.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   +---_securetransport
+|   |       |   |   |   |   |   |   bindings.py
+|   |       |   |   |   |   |   |   low_level.py
+|   |       |   |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   |   
+|   |       |   |   |   |   |   \---__pycache__
+|   |       |   |   |   |   |           bindings.cpython-39.pyc
+|   |       |   |   |   |   |           low_level.cpython-39.pyc
+|   |       |   |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |   |           
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           appengine.cpython-39.pyc
+|   |       |   |   |   |           ntlmpool.cpython-39.pyc
+|   |       |   |   |   |           pyopenssl.cpython-39.pyc
+|   |       |   |   |   |           securetransport.cpython-39.pyc
+|   |       |   |   |   |           socks.cpython-39.pyc
+|   |       |   |   |   |           _appengine_environ.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---packages
+|   |       |   |   |   |   |   six.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   +---backports
+|   |       |   |   |   |   |   |   makefile.py
+|   |       |   |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   |   
+|   |       |   |   |   |   |   \---__pycache__
+|   |       |   |   |   |   |           makefile.cpython-39.pyc
+|   |       |   |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |   |           
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           six.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   +---util
+|   |       |   |   |   |   |   connection.py
+|   |       |   |   |   |   |   proxy.py
+|   |       |   |   |   |   |   queue.py
+|   |       |   |   |   |   |   request.py
+|   |       |   |   |   |   |   response.py
+|   |       |   |   |   |   |   retry.py
+|   |       |   |   |   |   |   ssltransport.py
+|   |       |   |   |   |   |   ssl_.py
+|   |       |   |   |   |   |   ssl_match_hostname.py
+|   |       |   |   |   |   |   timeout.py
+|   |       |   |   |   |   |   url.py
+|   |       |   |   |   |   |   wait.py
+|   |       |   |   |   |   |   __init__.py
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---__pycache__
+|   |       |   |   |   |           connection.cpython-39.pyc
+|   |       |   |   |   |           proxy.cpython-39.pyc
+|   |       |   |   |   |           queue.cpython-39.pyc
+|   |       |   |   |   |           request.cpython-39.pyc
+|   |       |   |   |   |           response.cpython-39.pyc
+|   |       |   |   |   |           retry.cpython-39.pyc
+|   |       |   |   |   |           ssltransport.cpython-39.pyc
+|   |       |   |   |   |           ssl_.cpython-39.pyc
+|   |       |   |   |   |           ssl_match_hostname.cpython-39.pyc
+|   |       |   |   |   |           timeout.cpython-39.pyc
+|   |       |   |   |   |           url.cpython-39.pyc
+|   |       |   |   |   |           wait.cpython-39.pyc
+|   |       |   |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |   |           
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           connection.cpython-39.pyc
+|   |       |   |   |           connectionpool.cpython-39.pyc
+|   |       |   |   |           exceptions.cpython-39.pyc
+|   |       |   |   |           fields.cpython-39.pyc
+|   |       |   |   |           filepost.cpython-39.pyc
+|   |       |   |   |           poolmanager.cpython-39.pyc
+|   |       |   |   |           request.cpython-39.pyc
+|   |       |   |   |           response.cpython-39.pyc
+|   |       |   |   |           _collections.cpython-39.pyc
+|   |       |   |   |           _version.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---webencodings
+|   |       |   |   |   |   labels.py
+|   |       |   |   |   |   mklabels.py
+|   |       |   |   |   |   tests.py
+|   |       |   |   |   |   x_user_defined.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           labels.cpython-39.pyc
+|   |       |   |   |           mklabels.cpython-39.pyc
+|   |       |   |   |           tests.cpython-39.pyc
+|   |       |   |   |           x_user_defined.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   \---__pycache__
+|   |       |   |           distro.cpython-39.pyc
+|   |       |   |           six.cpython-39.pyc
+|   |       |   |           typing_extensions.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           __init__.cpython-39.pyc
+|   |       |           __main__.cpython-39.pyc
+|   |       |           
+|   |       +---pip-22.0.4.dist-info
+|   |       |       entry_points.txt
+|   |       |       INSTALLER
+|   |       |       LICENSE.txt
+|   |       |       METADATA
+|   |       |       RECORD
+|   |       |       REQUESTED
+|   |       |       top_level.txt
+|   |       |       WHEEL
+|   |       |       
+|   |       +---pkg_resources
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   +---extern
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---tests
+|   |       |   |   \---data
+|   |       |   |       \---my-test-package-source
+|   |       |   |           |   setup.py
+|   |       |   |           |   
+|   |       |   |           \---__pycache__
+|   |       |   |                   setup.cpython-39.pyc
+|   |       |   |                   
+|   |       |   +---_vendor
+|   |       |   |   |   appdirs.py
+|   |       |   |   |   pyparsing.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   +---packaging
+|   |       |   |   |   |   markers.py
+|   |       |   |   |   |   requirements.py
+|   |       |   |   |   |   specifiers.py
+|   |       |   |   |   |   tags.py
+|   |       |   |   |   |   utils.py
+|   |       |   |   |   |   version.py
+|   |       |   |   |   |   _compat.py
+|   |       |   |   |   |   _structures.py
+|   |       |   |   |   |   _typing.py
+|   |       |   |   |   |   __about__.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           markers.cpython-39.pyc
+|   |       |   |   |           requirements.cpython-39.pyc
+|   |       |   |   |           specifiers.cpython-39.pyc
+|   |       |   |   |           tags.cpython-39.pyc
+|   |       |   |   |           utils.cpython-39.pyc
+|   |       |   |   |           version.cpython-39.pyc
+|   |       |   |   |           _compat.cpython-39.pyc
+|   |       |   |   |           _structures.cpython-39.pyc
+|   |       |   |   |           _typing.cpython-39.pyc
+|   |       |   |   |           __about__.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   \---__pycache__
+|   |       |   |           appdirs.cpython-39.pyc
+|   |       |   |           pyparsing.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---pydantic
+|   |       |   |   aliases.py
+|   |       |   |   alias_generators.py
+|   |       |   |   annotated_handlers.py
+|   |       |   |   class_validators.py
+|   |       |   |   color.py
+|   |       |   |   config.py
+|   |       |   |   dataclasses.py
+|   |       |   |   datetime_parse.py
+|   |       |   |   decorator.py
+|   |       |   |   env_settings.py
+|   |       |   |   errors.py
+|   |       |   |   error_wrappers.py
+|   |       |   |   fields.py
+|   |       |   |   functional_serializers.py
+|   |       |   |   functional_validators.py
+|   |       |   |   generics.py
+|   |       |   |   json.py
+|   |       |   |   json_schema.py
+|   |       |   |   main.py
+|   |       |   |   mypy.py
+|   |       |   |   networks.py
+|   |       |   |   parse.py
+|   |       |   |   py.typed
+|   |       |   |   root_model.py
+|   |       |   |   schema.py
+|   |       |   |   tools.py
+|   |       |   |   types.py
+|   |       |   |   type_adapter.py
+|   |       |   |   typing.py
+|   |       |   |   utils.py
+|   |       |   |   validate_call_decorator.py
+|   |       |   |   validators.py
+|   |       |   |   version.py
+|   |       |   |   warnings.py
+|   |       |   |   _migration.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   +---deprecated
+|   |       |   |   |   class_validators.py
+|   |       |   |   |   config.py
+|   |       |   |   |   copy_internals.py
+|   |       |   |   |   decorator.py
+|   |       |   |   |   json.py
+|   |       |   |   |   parse.py
+|   |       |   |   |   tools.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           class_validators.cpython-39.pyc
+|   |       |   |           config.cpython-39.pyc
+|   |       |   |           copy_internals.cpython-39.pyc
+|   |       |   |           decorator.cpython-39.pyc
+|   |       |   |           json.cpython-39.pyc
+|   |       |   |           parse.cpython-39.pyc
+|   |       |   |           tools.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---experimental
+|   |       |   |   |   arguments_schema.py
+|   |       |   |   |   missing_sentinel.py
+|   |       |   |   |   pipeline.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           arguments_schema.cpython-39.pyc
+|   |       |   |           missing_sentinel.cpython-39.pyc
+|   |       |   |           pipeline.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---plugin
+|   |       |   |   |   _loader.py
+|   |       |   |   |   _schema_validator.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           _loader.cpython-39.pyc
+|   |       |   |           _schema_validator.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---v1
+|   |       |   |   |   annotated_types.py
+|   |       |   |   |   class_validators.py
+|   |       |   |   |   color.py
+|   |       |   |   |   config.py
+|   |       |   |   |   dataclasses.py
+|   |       |   |   |   datetime_parse.py
+|   |       |   |   |   decorator.py
+|   |       |   |   |   env_settings.py
+|   |       |   |   |   errors.py
+|   |       |   |   |   error_wrappers.py
+|   |       |   |   |   fields.py
+|   |       |   |   |   generics.py
+|   |       |   |   |   json.py
+|   |       |   |   |   main.py
+|   |       |   |   |   mypy.py
+|   |       |   |   |   networks.py
+|   |       |   |   |   parse.py
+|   |       |   |   |   py.typed
+|   |       |   |   |   schema.py
+|   |       |   |   |   tools.py
+|   |       |   |   |   types.py
+|   |       |   |   |   typing.py
+|   |       |   |   |   utils.py
+|   |       |   |   |   validators.py
+|   |       |   |   |   version.py
+|   |       |   |   |   _hypothesis_plugin.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           annotated_types.cpython-39.pyc
+|   |       |   |           class_validators.cpython-39.pyc
+|   |       |   |           color.cpython-39.pyc
+|   |       |   |           config.cpython-39.pyc
+|   |       |   |           dataclasses.cpython-39.pyc
+|   |       |   |           datetime_parse.cpython-39.pyc
+|   |       |   |           decorator.cpython-39.pyc
+|   |       |   |           env_settings.cpython-39.pyc
+|   |       |   |           errors.cpython-39.pyc
+|   |       |   |           error_wrappers.cpython-39.pyc
+|   |       |   |           fields.cpython-39.pyc
+|   |       |   |           generics.cpython-39.pyc
+|   |       |   |           json.cpython-39.pyc
+|   |       |   |           main.cpython-39.pyc
+|   |       |   |           mypy.cpython-39.pyc
+|   |       |   |           networks.cpython-39.pyc
+|   |       |   |           parse.cpython-39.pyc
+|   |       |   |           schema.cpython-39.pyc
+|   |       |   |           tools.cpython-39.pyc
+|   |       |   |           types.cpython-39.pyc
+|   |       |   |           typing.cpython-39.pyc
+|   |       |   |           utils.cpython-39.pyc
+|   |       |   |           validators.cpython-39.pyc
+|   |       |   |           version.cpython-39.pyc
+|   |       |   |           _hypothesis_plugin.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---_internal
+|   |       |   |   |   _config.py
+|   |       |   |   |   _core_metadata.py
+|   |       |   |   |   _core_utils.py
+|   |       |   |   |   _dataclasses.py
+|   |       |   |   |   _decorators.py
+|   |       |   |   |   _decorators_v1.py
+|   |       |   |   |   _discriminated_union.py
+|   |       |   |   |   _docs_extraction.py
+|   |       |   |   |   _fields.py
+|   |       |   |   |   _forward_ref.py
+|   |       |   |   |   _generate_schema.py
+|   |       |   |   |   _generics.py
+|   |       |   |   |   _git.py
+|   |       |   |   |   _import_utils.py
+|   |       |   |   |   _internal_dataclass.py
+|   |       |   |   |   _known_annotated_metadata.py
+|   |       |   |   |   _mock_val_ser.py
+|   |       |   |   |   _model_construction.py
+|   |       |   |   |   _namespace_utils.py
+|   |       |   |   |   _repr.py
+|   |       |   |   |   _schema_gather.py
+|   |       |   |   |   _schema_generation_shared.py
+|   |       |   |   |   _serializers.py
+|   |       |   |   |   _signature.py
+|   |       |   |   |   _typing_extra.py
+|   |       |   |   |   _utils.py
+|   |       |   |   |   _validate_call.py
+|   |       |   |   |   _validators.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           _config.cpython-39.pyc
+|   |       |   |           _core_metadata.cpython-39.pyc
+|   |       |   |           _core_utils.cpython-39.pyc
+|   |       |   |           _dataclasses.cpython-39.pyc
+|   |       |   |           _decorators.cpython-39.pyc
+|   |       |   |           _decorators_v1.cpython-39.pyc
+|   |       |   |           _discriminated_union.cpython-39.pyc
+|   |       |   |           _docs_extraction.cpython-39.pyc
+|   |       |   |           _fields.cpython-39.pyc
+|   |       |   |           _forward_ref.cpython-39.pyc
+|   |       |   |           _generate_schema.cpython-39.pyc
+|   |       |   |           _generics.cpython-39.pyc
+|   |       |   |           _git.cpython-39.pyc
+|   |       |   |           _import_utils.cpython-39.pyc
+|   |       |   |           _internal_dataclass.cpython-39.pyc
+|   |       |   |           _known_annotated_metadata.cpython-39.pyc
+|   |       |   |           _mock_val_ser.cpython-39.pyc
+|   |       |   |           _model_construction.cpython-39.pyc
+|   |       |   |           _namespace_utils.cpython-39.pyc
+|   |       |   |           _repr.cpython-39.pyc
+|   |       |   |           _schema_gather.cpython-39.pyc
+|   |       |   |           _schema_generation_shared.cpython-39.pyc
+|   |       |   |           _serializers.cpython-39.pyc
+|   |       |   |           _signature.cpython-39.pyc
+|   |       |   |           _typing_extra.cpython-39.pyc
+|   |       |   |           _utils.cpython-39.pyc
+|   |       |   |           _validate_call.cpython-39.pyc
+|   |       |   |           _validators.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           aliases.cpython-39.pyc
+|   |       |           alias_generators.cpython-39.pyc
+|   |       |           annotated_handlers.cpython-39.pyc
+|   |       |           class_validators.cpython-39.pyc
+|   |       |           color.cpython-39.pyc
+|   |       |           config.cpython-39.pyc
+|   |       |           dataclasses.cpython-39.pyc
+|   |       |           datetime_parse.cpython-39.pyc
+|   |       |           decorator.cpython-39.pyc
+|   |       |           env_settings.cpython-39.pyc
+|   |       |           errors.cpython-39.pyc
+|   |       |           error_wrappers.cpython-39.pyc
+|   |       |           fields.cpython-39.pyc
+|   |       |           functional_serializers.cpython-39.pyc
+|   |       |           functional_validators.cpython-39.pyc
+|   |       |           generics.cpython-39.pyc
+|   |       |           json.cpython-39.pyc
+|   |       |           json_schema.cpython-39.pyc
+|   |       |           main.cpython-39.pyc
+|   |       |           mypy.cpython-39.pyc
+|   |       |           networks.cpython-39.pyc
+|   |       |           parse.cpython-39.pyc
+|   |       |           root_model.cpython-39.pyc
+|   |       |           schema.cpython-39.pyc
+|   |       |           tools.cpython-39.pyc
+|   |       |           types.cpython-39.pyc
+|   |       |           type_adapter.cpython-39.pyc
+|   |       |           typing.cpython-39.pyc
+|   |       |           utils.cpython-39.pyc
+|   |       |           validate_call_decorator.cpython-39.pyc
+|   |       |           validators.cpython-39.pyc
+|   |       |           version.cpython-39.pyc
+|   |       |           warnings.cpython-39.pyc
+|   |       |           _migration.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---pydantic-2.12.4.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---pydantic_core
+|   |       |   |   core_schema.py
+|   |       |   |   py.typed
+|   |       |   |   _pydantic_core.cp39-win_amd64.pyd
+|   |       |   |   _pydantic_core.pyi
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           core_schema.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---pydantic_core-2.41.5.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---setuptools
+|   |       |   |   archive_util.py
+|   |       |   |   build_meta.py
+|   |       |   |   cli-32.exe
+|   |       |   |   cli-64.exe
+|   |       |   |   cli.exe
+|   |       |   |   config.py
+|   |       |   |   depends.py
+|   |       |   |   dep_util.py
+|   |       |   |   dist.py
+|   |       |   |   errors.py
+|   |       |   |   extension.py
+|   |       |   |   glob.py
+|   |       |   |   gui-32.exe
+|   |       |   |   gui-64.exe
+|   |       |   |   gui.exe
+|   |       |   |   installer.py
+|   |       |   |   launch.py
+|   |       |   |   monkey.py
+|   |       |   |   msvc.py
+|   |       |   |   namespaces.py
+|   |       |   |   package_index.py
+|   |       |   |   py34compat.py
+|   |       |   |   sandbox.py
+|   |       |   |   script (dev).tmpl
+|   |       |   |   script.tmpl
+|   |       |   |   unicode_utils.py
+|   |       |   |   version.py
+|   |       |   |   wheel.py
+|   |       |   |   windows_support.py
+|   |       |   |   _deprecation_warning.py
+|   |       |   |   _imp.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   +---command
+|   |       |   |   |   alias.py
+|   |       |   |   |   bdist_egg.py
+|   |       |   |   |   bdist_rpm.py
+|   |       |   |   |   build_clib.py
+|   |       |   |   |   build_ext.py
+|   |       |   |   |   build_py.py
+|   |       |   |   |   develop.py
+|   |       |   |   |   dist_info.py
+|   |       |   |   |   easy_install.py
+|   |       |   |   |   egg_info.py
+|   |       |   |   |   install.py
+|   |       |   |   |   install_egg_info.py
+|   |       |   |   |   install_lib.py
+|   |       |   |   |   install_scripts.py
+|   |       |   |   |   launcher manifest.xml
+|   |       |   |   |   py36compat.py
+|   |       |   |   |   register.py
+|   |       |   |   |   rotate.py
+|   |       |   |   |   saveopts.py
+|   |       |   |   |   sdist.py
+|   |       |   |   |   setopt.py
+|   |       |   |   |   test.py
+|   |       |   |   |   upload.py
+|   |       |   |   |   upload_docs.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           alias.cpython-39.pyc
+|   |       |   |           bdist_egg.cpython-39.pyc
+|   |       |   |           bdist_rpm.cpython-39.pyc
+|   |       |   |           build_clib.cpython-39.pyc
+|   |       |   |           build_ext.cpython-39.pyc
+|   |       |   |           build_py.cpython-39.pyc
+|   |       |   |           develop.cpython-39.pyc
+|   |       |   |           dist_info.cpython-39.pyc
+|   |       |   |           easy_install.cpython-39.pyc
+|   |       |   |           egg_info.cpython-39.pyc
+|   |       |   |           install.cpython-39.pyc
+|   |       |   |           install_egg_info.cpython-39.pyc
+|   |       |   |           install_lib.cpython-39.pyc
+|   |       |   |           install_scripts.cpython-39.pyc
+|   |       |   |           py36compat.cpython-39.pyc
+|   |       |   |           register.cpython-39.pyc
+|   |       |   |           rotate.cpython-39.pyc
+|   |       |   |           saveopts.cpython-39.pyc
+|   |       |   |           sdist.cpython-39.pyc
+|   |       |   |           setopt.cpython-39.pyc
+|   |       |   |           test.cpython-39.pyc
+|   |       |   |           upload.cpython-39.pyc
+|   |       |   |           upload_docs.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---extern
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---_distutils
+|   |       |   |   |   archive_util.py
+|   |       |   |   |   bcppcompiler.py
+|   |       |   |   |   ccompiler.py
+|   |       |   |   |   cmd.py
+|   |       |   |   |   config.py
+|   |       |   |   |   core.py
+|   |       |   |   |   cygwinccompiler.py
+|   |       |   |   |   debug.py
+|   |       |   |   |   dep_util.py
+|   |       |   |   |   dir_util.py
+|   |       |   |   |   dist.py
+|   |       |   |   |   errors.py
+|   |       |   |   |   extension.py
+|   |       |   |   |   fancy_getopt.py
+|   |       |   |   |   filelist.py
+|   |       |   |   |   file_util.py
+|   |       |   |   |   log.py
+|   |       |   |   |   msvc9compiler.py
+|   |       |   |   |   msvccompiler.py
+|   |       |   |   |   py35compat.py
+|   |       |   |   |   py38compat.py
+|   |       |   |   |   spawn.py
+|   |       |   |   |   sysconfig.py
+|   |       |   |   |   text_file.py
+|   |       |   |   |   unixccompiler.py
+|   |       |   |   |   util.py
+|   |       |   |   |   version.py
+|   |       |   |   |   versionpredicate.py
+|   |       |   |   |   _msvccompiler.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   +---command
+|   |       |   |   |   |   bdist.py
+|   |       |   |   |   |   bdist_dumb.py
+|   |       |   |   |   |   bdist_msi.py
+|   |       |   |   |   |   bdist_rpm.py
+|   |       |   |   |   |   bdist_wininst.py
+|   |       |   |   |   |   build.py
+|   |       |   |   |   |   build_clib.py
+|   |       |   |   |   |   build_ext.py
+|   |       |   |   |   |   build_py.py
+|   |       |   |   |   |   build_scripts.py
+|   |       |   |   |   |   check.py
+|   |       |   |   |   |   clean.py
+|   |       |   |   |   |   config.py
+|   |       |   |   |   |   install.py
+|   |       |   |   |   |   install_data.py
+|   |       |   |   |   |   install_egg_info.py
+|   |       |   |   |   |   install_headers.py
+|   |       |   |   |   |   install_lib.py
+|   |       |   |   |   |   install_scripts.py
+|   |       |   |   |   |   py37compat.py
+|   |       |   |   |   |   register.py
+|   |       |   |   |   |   sdist.py
+|   |       |   |   |   |   upload.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           bdist.cpython-39.pyc
+|   |       |   |   |           bdist_dumb.cpython-39.pyc
+|   |       |   |   |           bdist_msi.cpython-39.pyc
+|   |       |   |   |           bdist_rpm.cpython-39.pyc
+|   |       |   |   |           bdist_wininst.cpython-39.pyc
+|   |       |   |   |           build.cpython-39.pyc
+|   |       |   |   |           build_clib.cpython-39.pyc
+|   |       |   |   |           build_ext.cpython-39.pyc
+|   |       |   |   |           build_py.cpython-39.pyc
+|   |       |   |   |           build_scripts.cpython-39.pyc
+|   |       |   |   |           check.cpython-39.pyc
+|   |       |   |   |           clean.cpython-39.pyc
+|   |       |   |   |           config.cpython-39.pyc
+|   |       |   |   |           install.cpython-39.pyc
+|   |       |   |   |           install_data.cpython-39.pyc
+|   |       |   |   |           install_egg_info.cpython-39.pyc
+|   |       |   |   |           install_headers.cpython-39.pyc
+|   |       |   |   |           install_lib.cpython-39.pyc
+|   |       |   |   |           install_scripts.cpython-39.pyc
+|   |       |   |   |           py37compat.cpython-39.pyc
+|   |       |   |   |           register.cpython-39.pyc
+|   |       |   |   |           sdist.cpython-39.pyc
+|   |       |   |   |           upload.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   \---__pycache__
+|   |       |   |           archive_util.cpython-39.pyc
+|   |       |   |           bcppcompiler.cpython-39.pyc
+|   |       |   |           ccompiler.cpython-39.pyc
+|   |       |   |           cmd.cpython-39.pyc
+|   |       |   |           config.cpython-39.pyc
+|   |       |   |           core.cpython-39.pyc
+|   |       |   |           cygwinccompiler.cpython-39.pyc
+|   |       |   |           debug.cpython-39.pyc
+|   |       |   |           dep_util.cpython-39.pyc
+|   |       |   |           dir_util.cpython-39.pyc
+|   |       |   |           dist.cpython-39.pyc
+|   |       |   |           errors.cpython-39.pyc
+|   |       |   |           extension.cpython-39.pyc
+|   |       |   |           fancy_getopt.cpython-39.pyc
+|   |       |   |           filelist.cpython-39.pyc
+|   |       |   |           file_util.cpython-39.pyc
+|   |       |   |           log.cpython-39.pyc
+|   |       |   |           msvc9compiler.cpython-39.pyc
+|   |       |   |           msvccompiler.cpython-39.pyc
+|   |       |   |           py35compat.cpython-39.pyc
+|   |       |   |           py38compat.cpython-39.pyc
+|   |       |   |           spawn.cpython-39.pyc
+|   |       |   |           sysconfig.cpython-39.pyc
+|   |       |   |           text_file.cpython-39.pyc
+|   |       |   |           unixccompiler.cpython-39.pyc
+|   |       |   |           util.cpython-39.pyc
+|   |       |   |           version.cpython-39.pyc
+|   |       |   |           versionpredicate.cpython-39.pyc
+|   |       |   |           _msvccompiler.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---_vendor
+|   |       |   |   |   ordered_set.py
+|   |       |   |   |   pyparsing.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   +---more_itertools
+|   |       |   |   |   |   more.py
+|   |       |   |   |   |   recipes.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           more.cpython-39.pyc
+|   |       |   |   |           recipes.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---packaging
+|   |       |   |   |   |   markers.py
+|   |       |   |   |   |   requirements.py
+|   |       |   |   |   |   specifiers.py
+|   |       |   |   |   |   tags.py
+|   |       |   |   |   |   utils.py
+|   |       |   |   |   |   version.py
+|   |       |   |   |   |   _compat.py
+|   |       |   |   |   |   _structures.py
+|   |       |   |   |   |   _typing.py
+|   |       |   |   |   |   __about__.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           markers.cpython-39.pyc
+|   |       |   |   |           requirements.cpython-39.pyc
+|   |       |   |   |           specifiers.cpython-39.pyc
+|   |       |   |   |           tags.cpython-39.pyc
+|   |       |   |   |           utils.cpython-39.pyc
+|   |       |   |   |           version.cpython-39.pyc
+|   |       |   |   |           _compat.cpython-39.pyc
+|   |       |   |   |           _structures.cpython-39.pyc
+|   |       |   |   |           _typing.cpython-39.pyc
+|   |       |   |   |           __about__.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   \---__pycache__
+|   |       |   |           ordered_set.cpython-39.pyc
+|   |       |   |           pyparsing.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           archive_util.cpython-39.pyc
+|   |       |           build_meta.cpython-39.pyc
+|   |       |           config.cpython-39.pyc
+|   |       |           depends.cpython-39.pyc
+|   |       |           dep_util.cpython-39.pyc
+|   |       |           dist.cpython-39.pyc
+|   |       |           errors.cpython-39.pyc
+|   |       |           extension.cpython-39.pyc
+|   |       |           glob.cpython-39.pyc
+|   |       |           installer.cpython-39.pyc
+|   |       |           launch.cpython-39.pyc
+|   |       |           monkey.cpython-39.pyc
+|   |       |           msvc.cpython-39.pyc
+|   |       |           namespaces.cpython-39.pyc
+|   |       |           package_index.cpython-39.pyc
+|   |       |           py34compat.cpython-39.pyc
+|   |       |           sandbox.cpython-39.pyc
+|   |       |           unicode_utils.cpython-39.pyc
+|   |       |           version.cpython-39.pyc
+|   |       |           wheel.cpython-39.pyc
+|   |       |           windows_support.cpython-39.pyc
+|   |       |           _deprecation_warning.cpython-39.pyc
+|   |       |           _imp.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---setuptools-58.1.0.dist-info
+|   |       |       entry_points.txt
+|   |       |       INSTALLER
+|   |       |       LICENSE
+|   |       |       METADATA
+|   |       |       RECORD
+|   |       |       REQUESTED
+|   |       |       top_level.txt
+|   |       |       WHEEL
+|   |       |       
+|   |       +---sniffio
+|   |       |   |   py.typed
+|   |       |   |   _impl.py
+|   |       |   |   _version.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   +---_tests
+|   |       |   |   |   test_sniffio.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           test_sniffio.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           _impl.cpython-39.pyc
+|   |       |           _version.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---sniffio-1.3.1.dist-info
+|   |       |       INSTALLER
+|   |       |       LICENSE
+|   |       |       LICENSE.APACHE2
+|   |       |       LICENSE.MIT
+|   |       |       METADATA
+|   |       |       RECORD
+|   |       |       top_level.txt
+|   |       |       WHEEL
+|   |       |       
+|   |       +---starlette
+|   |       |   |   applications.py
+|   |       |   |   authentication.py
+|   |       |   |   background.py
+|   |       |   |   concurrency.py
+|   |       |   |   config.py
+|   |       |   |   convertors.py
+|   |       |   |   datastructures.py
+|   |       |   |   endpoints.py
+|   |       |   |   exceptions.py
+|   |       |   |   formparsers.py
+|   |       |   |   py.typed
+|   |       |   |   requests.py
+|   |       |   |   responses.py
+|   |       |   |   routing.py
+|   |       |   |   schemas.py
+|   |       |   |   staticfiles.py
+|   |       |   |   status.py
+|   |       |   |   templating.py
+|   |       |   |   testclient.py
+|   |       |   |   types.py
+|   |       |   |   websockets.py
+|   |       |   |   _exception_handler.py
+|   |       |   |   _utils.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   +---middleware
+|   |       |   |   |   authentication.py
+|   |       |   |   |   base.py
+|   |       |   |   |   cors.py
+|   |       |   |   |   errors.py
+|   |       |   |   |   exceptions.py
+|   |       |   |   |   gzip.py
+|   |       |   |   |   httpsredirect.py
+|   |       |   |   |   sessions.py
+|   |       |   |   |   trustedhost.py
+|   |       |   |   |   wsgi.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           authentication.cpython-39.pyc
+|   |       |   |           base.cpython-39.pyc
+|   |       |   |           cors.cpython-39.pyc
+|   |       |   |           errors.cpython-39.pyc
+|   |       |   |           exceptions.cpython-39.pyc
+|   |       |   |           gzip.cpython-39.pyc
+|   |       |   |           httpsredirect.cpython-39.pyc
+|   |       |   |           sessions.cpython-39.pyc
+|   |       |   |           trustedhost.cpython-39.pyc
+|   |       |   |           wsgi.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           applications.cpython-39.pyc
+|   |       |           authentication.cpython-39.pyc
+|   |       |           background.cpython-39.pyc
+|   |       |           concurrency.cpython-39.pyc
+|   |       |           config.cpython-39.pyc
+|   |       |           convertors.cpython-39.pyc
+|   |       |           datastructures.cpython-39.pyc
+|   |       |           endpoints.cpython-39.pyc
+|   |       |           exceptions.cpython-39.pyc
+|   |       |           formparsers.cpython-39.pyc
+|   |       |           requests.cpython-39.pyc
+|   |       |           responses.cpython-39.pyc
+|   |       |           routing.cpython-39.pyc
+|   |       |           schemas.cpython-39.pyc
+|   |       |           staticfiles.cpython-39.pyc
+|   |       |           status.cpython-39.pyc
+|   |       |           templating.cpython-39.pyc
+|   |       |           testclient.cpython-39.pyc
+|   |       |           types.cpython-39.pyc
+|   |       |           websockets.cpython-39.pyc
+|   |       |           _exception_handler.cpython-39.pyc
+|   |       |           _utils.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---starlette-0.49.3.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE.md
+|   |       |           
+|   |       +---typing_extensions-4.15.0.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---typing_inspection
+|   |       |   |   introspection.py
+|   |       |   |   py.typed
+|   |       |   |   typing_objects.py
+|   |       |   |   typing_objects.pyi
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           introspection.cpython-39.pyc
+|   |       |           typing_objects.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       +---typing_inspection-0.4.2.dist-info
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE
+|   |       |           
+|   |       +---uvicorn
+|   |       |   |   config.py
+|   |       |   |   importer.py
+|   |       |   |   logging.py
+|   |       |   |   main.py
+|   |       |   |   py.typed
+|   |       |   |   server.py
+|   |       |   |   workers.py
+|   |       |   |   _compat.py
+|   |       |   |   _subprocess.py
+|   |       |   |   _types.py
+|   |       |   |   __init__.py
+|   |       |   |   __main__.py
+|   |       |   |   
+|   |       |   +---lifespan
+|   |       |   |   |   off.py
+|   |       |   |   |   on.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           off.cpython-39.pyc
+|   |       |   |           on.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---loops
+|   |       |   |   |   asyncio.py
+|   |       |   |   |   auto.py
+|   |       |   |   |   uvloop.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           asyncio.cpython-39.pyc
+|   |       |   |           auto.cpython-39.pyc
+|   |       |   |           uvloop.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---middleware
+|   |       |   |   |   asgi2.py
+|   |       |   |   |   message_logger.py
+|   |       |   |   |   proxy_headers.py
+|   |       |   |   |   wsgi.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           asgi2.cpython-39.pyc
+|   |       |   |           message_logger.cpython-39.pyc
+|   |       |   |           proxy_headers.cpython-39.pyc
+|   |       |   |           wsgi.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---protocols
+|   |       |   |   |   utils.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   +---http
+|   |       |   |   |   |   auto.py
+|   |       |   |   |   |   flow_control.py
+|   |       |   |   |   |   h11_impl.py
+|   |       |   |   |   |   httptools_impl.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           auto.cpython-39.pyc
+|   |       |   |   |           flow_control.cpython-39.pyc
+|   |       |   |   |           h11_impl.cpython-39.pyc
+|   |       |   |   |           httptools_impl.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   +---websockets
+|   |       |   |   |   |   auto.py
+|   |       |   |   |   |   websockets_impl.py
+|   |       |   |   |   |   websockets_sansio_impl.py
+|   |       |   |   |   |   wsproto_impl.py
+|   |       |   |   |   |   __init__.py
+|   |       |   |   |   |   
+|   |       |   |   |   \---__pycache__
+|   |       |   |   |           auto.cpython-39.pyc
+|   |       |   |   |           websockets_impl.cpython-39.pyc
+|   |       |   |   |           websockets_sansio_impl.cpython-39.pyc
+|   |       |   |   |           wsproto_impl.cpython-39.pyc
+|   |       |   |   |           __init__.cpython-39.pyc
+|   |       |   |   |           
+|   |       |   |   \---__pycache__
+|   |       |   |           utils.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   +---supervisors
+|   |       |   |   |   basereload.py
+|   |       |   |   |   multiprocess.py
+|   |       |   |   |   statreload.py
+|   |       |   |   |   watchfilesreload.py
+|   |       |   |   |   __init__.py
+|   |       |   |   |   
+|   |       |   |   \---__pycache__
+|   |       |   |           basereload.cpython-39.pyc
+|   |       |   |           multiprocess.cpython-39.pyc
+|   |       |   |           statreload.cpython-39.pyc
+|   |       |   |           watchfilesreload.cpython-39.pyc
+|   |       |   |           __init__.cpython-39.pyc
+|   |       |   |           
+|   |       |   \---__pycache__
+|   |       |           config.cpython-39.pyc
+|   |       |           importer.cpython-39.pyc
+|   |       |           logging.cpython-39.pyc
+|   |       |           main.cpython-39.pyc
+|   |       |           server.cpython-39.pyc
+|   |       |           workers.cpython-39.pyc
+|   |       |           _compat.cpython-39.pyc
+|   |       |           _subprocess.cpython-39.pyc
+|   |       |           _types.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           __main__.cpython-39.pyc
+|   |       |           
+|   |       +---uvicorn-0.38.0.dist-info
+|   |       |   |   entry_points.txt
+|   |       |   |   INSTALLER
+|   |       |   |   METADATA
+|   |       |   |   RECORD
+|   |       |   |   REQUESTED
+|   |       |   |   WHEEL
+|   |       |   |   
+|   |       |   \---licenses
+|   |       |           LICENSE.md
+|   |       |           
+|   |       +---_distutils_hack
+|   |       |   |   override.py
+|   |       |   |   __init__.py
+|   |       |   |   
+|   |       |   \---__pycache__
+|   |       |           override.cpython-39.pyc
+|   |       |           __init__.cpython-39.pyc
+|   |       |           
+|   |       \---__pycache__
+|   |               typing_extensions.cpython-39.pyc
+|   |               
+|   \---Scripts
+|           activate
+|           activate.bat
+|           Activate.ps1
+|           deactivate.bat
+|           fastapi.exe
+|           pip.exe
+|           pip3.9.exe
+|           pip3.exe
+|           python.exe
+|           pythonw.exe
+|           uvicorn.exe
+|           
+\---__pycache__
+        server.cpython-39.pyc
+        
